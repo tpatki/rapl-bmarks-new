@@ -109,7 +109,8 @@ get_env_variables(struct rapl_state_s *s){
 			
 			for(package=0;package<NUM_PACKAGES; package++){
 					enable_turbo(package);
-//TP:Dec28				disable_turbo(package);
+//In read only mode turbo is enabled
+/*TP:Dec28*///				disable_turbo(package);
 			}
 	
 //			You want to do this in here and not in rapl_init because it is safer to do it in here.

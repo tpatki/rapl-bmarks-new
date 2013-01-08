@@ -1,7 +1,7 @@
 #!/bin/bash
 #MSUB -lpartition=rzmerl
 #MSUB -A lc
-#MSUB -l nodes=32
+#MSUB -l nodes=36
 #MSUB -q pbatch
 #MSUB -m abe
 #MSUB -M rountree@llnl.gov,tpatki@email.arizona.edu
@@ -13,7 +13,7 @@ i=16
 minthreads=4
 
 j=8
-maxnodes=32
+maxnodes=36
 
 export PKG_MINW_MINS=0x38198
 export PP0_MINW_MINS=0x38198
@@ -22,7 +22,7 @@ export MSR_PKG_POWER_LIMIT=0x0
 export MSR_PP0_POWER_LIMIT=0x0
 export MSR_DRAM_POWER_LIMIT=0x0
 export MSR_RANK_MOD=1 #One task per node, the rest are threads
-export SAMPLE=1
+export SAMPLE=0
 
 t=0
 
@@ -30,7 +30,7 @@ t=0
 #do
 
 export TURBO_ENABLE=1
-export FUNC_INTERCEPT=1
+export FUNC_INTERCEPT=0
 #unbounded measurement
 export READ_WRITE=0
 export READ_ONLY=1
@@ -43,6 +43,7 @@ j=8
         while [ $i -ge $minthreads ]
         do
                 export OMP_NUM_THREADS=$i
+		export KMP_AFFINITY=scatter
                 name=`date +%Y_%m_%d_%H_%M_%S_%N`
                 mkdir $name
                 cd $name
@@ -67,7 +68,7 @@ j=8
 
                 i=$(($i-2))
         done
-        j=$(($j*2))
+        j=$(($j+2))
         done
 
 
@@ -91,6 +92,7 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 	while [ $i -ge $minthreads ]
 	do
 		export OMP_NUM_THREADS=$i
+		export KMP_AFFINITY=scatter
 		name=`date +%Y_%m_%d_%H_%M_%S_%N`
 		mkdir $name
 		cd $name
@@ -116,7 +118,7 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 
 		i=$(($i-2))
 	done
-	j=$(($j*2))
+	j=$(($j+2))
 	done
 done
 
