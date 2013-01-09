@@ -9,12 +9,13 @@
 
 //Large is 2^32 atm
 #define LARGE 4096
-#define ITERS 2000
+#define ITERS 2
 //Need to run same number of iters as the no-scale-cpu version; which is 20.
 #define COMM_ITERS 20 
 #define COMM2_ITERS 256
 //Total array size = 65536 * 8 bytes; 512 MB
-#define FIXED_SZ 131072
+//#define FIXED_SZ 131072
+#define FIXED_SZ 16777216
 #define MSG_SZ 262144
 
 

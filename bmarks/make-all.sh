@@ -17,10 +17,6 @@ make clean && make -j8 rapl-icc
 #cd ../../../lulesh-oct30
 #make clean && make
 
-#cd ../examples/spin-with-barrier
-#make clean && make
-#cd ../../../
-
 #cd lulesh
 #make clean && make
 
@@ -38,4 +34,10 @@ cd ../synthetic/scale-cpu
 make clean && make
 
 cd ../no-scale-cpu-comm
+make clean && make
+
+cd ../no-scale-mem-comm
+make clean && make
+
+cd ../scale-mem
 make clean && make
