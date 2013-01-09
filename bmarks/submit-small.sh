@@ -25,6 +25,16 @@ msub rapl-runs-small.msub
 msub rapl-runs-small.msub
 msub rapl-runs-small.msub
 
+cd ../../synthetic/scale-cpu
+msub rapl-runs-small.msub
+msub rapl-runs-small.msub
+msub rapl-runs-small.msub
+
+cd ../../synthetic/no-scale-cpu-comm
+msub rapl-runs-small.msub
+msub rapl-runs-small.msub
+msub rapl-runs-small.msub
+
 #cd ../../../librapl/libmsr/examples/spin-with-barrier/
 #msub rapl-runs-small.msub
 

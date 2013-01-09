@@ -34,3 +34,8 @@ sh makeBT_MZ.sh
 sh makeBT_MZ.sh
 sh makeLU_MZ.sh
 
+cd ../synthetic/scale-cpu
+make clean && make
+
+cd ../no-scale-cpu-comm
+make clean && make

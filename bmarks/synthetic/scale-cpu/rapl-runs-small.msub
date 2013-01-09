@@ -43,6 +43,7 @@ j=8
         while [ $i -ge $minthreads ]
         do
                 export OMP_NUM_THREADS=$i
+		export KMP_AFFINITY=scatter
                 name=`date +%Y_%m_%d_%H_%M_%S_%N`
                 mkdir $name
                 cd $name
@@ -62,7 +63,7 @@ j=8
 
                 i=$(($i-2))
         done
-        j=$(($j*2))
+        j=$(($j+2))
         done
 
 
@@ -86,6 +87,7 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 	while [ $i -ge $minthreads ]
 	do
 		export OMP_NUM_THREADS=$i
+		export KMP_AFFINITY=scatter
 		name=`date +%Y_%m_%d_%H_%M_%S_%N`
 		mkdir $name
 		cd $name
@@ -105,7 +107,7 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 
 		i=$(($i-2))
 	done
-	j=$(($j*2))
+	j=$(($j+2))
 	done
 done
 
