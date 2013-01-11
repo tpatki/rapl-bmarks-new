@@ -12,7 +12,8 @@
 #define ITERS 2
 //Total array size = 65536 * 8 bytes; 512 MB
 //#define FIXED_SZ 131072
-#define FIXED_SZ 16777216
+//#define FIXED_SZ 16777216
+#define FIXED_SZ (20 * 1024 * 1024 * 16)
 
 int main(int argc, char * argv[]){
 
