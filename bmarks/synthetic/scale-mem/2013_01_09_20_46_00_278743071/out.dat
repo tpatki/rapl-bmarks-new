@@ -1,0 +1,134 @@
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+Each chunk is: 157
+Iterations: 2
+Nodes: 26
+
+
+
+
+Threads: 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Rank 9 is done initializing
+Time is: 6.765423 secs
+ Rank 20 is done initializing
+Time is: 7.004890 secs
+ Rank 17 is done initializing
+Time is: 7.014180 secs
+ Rank 1 is done initializing
+Time is: 7.124507 secs
+ Rank 15 is done initializing
+Time is: 7.157924 secs
+ Rank 10 is done initializing
+Time is: 7.301952 secs
+ Rank 18 is done initializing
+Time is: 7.429444 secs
+ Rank 5 is done initializing
+Time is: 7.447648 secs
+ Rank 11 is done initializing
+Time is: 7.481061 secs
+ Rank 7 is done initializing
+Time is: 7.503733 secs
+ Rank 23 is done initializing
+Time is: 7.496710 secs
+ Rank 25 is done initializing
+Time is: 7.530748 secs
+ Rank 16 is done initializing
+Time is: 7.561393 secs
+ Rank 4 is done initializing
+Time is: 7.654754 secs
+ Rank 19 is done initializing
+Time is: 7.695165 secs
+ Rank 24 is done initializing
+Time is: 7.727295 secs
+ Rank 6 is done initializing
+Time is: 7.734106 secs
+ Rank 21 is done initializing
+Time is: 7.765793 secs
+ Rank 2 is done initializing
+Time is: 7.788128 secs
+ Rank 3 is done initializing
+Time is: 7.797169 secs
+ Rank 8 is done initializing
+Time is: 7.794080 secs
+ Rank 12 is done initializing
+Time is: 7.812183 secs
+ Rank 0 is done initializing
+Time is: 7.846249 secs
+ Rank 13 is done initializing
+Time is: 8.106010 secs
+ Rank 14 is done initializing
+Time is: 8.164156 secs
+ Rank 22 is done initializing
+Time is: 8.223744 secs
