@@ -111,7 +111,7 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 	done
 done
 
-git add .
-git commit -a -m "Results-synth-3"
-git push
+#git add .
+#git commit -a -m "Results-synth-3"
+#git push
 #done

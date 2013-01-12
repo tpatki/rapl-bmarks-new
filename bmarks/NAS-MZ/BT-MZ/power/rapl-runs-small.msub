@@ -112,8 +112,8 @@ export MSR_PKG_POWER_LIMIT=${pkg}
 done
 
 
-git add .
-git commit -a -m "Results bt"
-git push
+#git add .
+#git commit -a -m "Results bt"
+#git push
 
 #done
