@@ -1,0 +1,124 @@
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+Each chunk is: 170
+Iterations: 2
+Nodes: 24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Threads: 12
+
+ Rank 12 is done initializing
+Time is: 68.186467 secs
+ Rank 13 is done initializing
+Time is: 69.201260 secs
+ Rank 22 is done initializing
+Time is: 69.549259 secs
+ Rank 21 is done initializing
+Time is: 70.062159 secs
+ Rank 5 is done initializing
+Time is: 70.064935 secs
+ Rank 8 is done initializing
+Time is: 70.484648 secs
+ Rank 6 is done initializing
+Time is: 71.126079 secs
+ Rank 10 is done initializing
+Time is: 71.408920 secs
+ Rank 7 is done initializing
+Time is: 71.503942 secs
+ Rank 15 is done initializing
+Time is: 71.532132 secs
+ Rank 2 is done initializing
+Time is: 71.537550 secs
+ Rank 11 is done initializing
+Time is: 71.626527 secs
+ Rank 14 is done initializing
+Time is: 71.850965 secs
+ Rank 18 is done initializing
+Time is: 71.894947 secs
+ Rank 23 is done initializing
+Time is: 72.335287 secs
+ Rank 16 is done initializing
+Time is: 72.972057 secs
+ Rank 1 is done initializing
+Time is: 73.192334 secs
+ Rank 19 is done initializing
+Time is: 73.525574 secs
+ Rank 17 is done initializing
+Time is: 74.630297 secs
+ Rank 3 is done initializing
+Time is: 75.758227 secs
+ Rank 4 is done initializing
+Time is: 76.457573 secs
+ Rank 0 is done initializing
+Time is: 76.643547 secs
+ Rank 9 is done initializing
+Time is: 77.008946 secs
+ Rank 20 is done initializing
+Time is: 79.538456 secs

@@ -17053,3 +17053,4123 @@ In READ-WRITE mode.
 In READ-WRITE mode.
 
 In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_02_17_461577597
++ mkdir 2013_01_12_13_02_17_461577597
++ cd 2013_01_12_13_02_17_461577597
++ touch out.dat
++ env
++ echo 2013_01_12_13_02_17_461577597
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_03_08_467924414
++ mkdir 2013_01_12_13_03_08_467924414
++ cd 2013_01_12_13_03_08_467924414
++ touch out.dat
++ env
++ echo 2013_01_12_13_03_08_467924414
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_03_49_850472084
++ mkdir 2013_01_12_13_03_49_850472084
++ cd 2013_01_12_13_03_49_850472084
++ touch out.dat
++ env
++ echo 2013_01_12_13_03_49_850472084
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_04_35_283349724
++ mkdir 2013_01_12_13_04_35_283349724
++ cd 2013_01_12_13_04_35_283349724
++ touch out.dat
++ env
++ echo 2013_01_12_13_04_35_283349724
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_05_25_398353701
++ mkdir 2013_01_12_13_05_25_398353701
++ cd 2013_01_12_13_05_25_398353701
++ touch out.dat
++ env
++ echo 2013_01_12_13_05_25_398353701
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_06_25_267768112
++ mkdir 2013_01_12_13_06_25_267768112
++ cd 2013_01_12_13_06_25_267768112
++ touch out.dat
++ env
++ echo 2013_01_12_13_06_25_267768112
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_07_37_562948077
++ mkdir 2013_01_12_13_07_37_562948077
++ cd 2013_01_12_13_07_37_562948077
++ touch out.dat
++ env
++ echo 2013_01_12_13_07_37_562948077
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=32 --ntasks=32 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=34
++ '[' 34 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x038280
++ MSR_PKG_POWER_LIMIT=0x038280
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_09_18_556118638
++ mkdir 2013_01_12_13_09_18_556118638
++ cd 2013_01_12_13_09_18_556118638
++ touch out.dat
++ env
++ echo 2013_01_12_13_09_18_556118638
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_11_56_455729468
++ mkdir 2013_01_12_13_11_56_455729468
++ cd 2013_01_12_13_11_56_455729468
++ touch out.dat
++ env
++ echo 2013_01_12_13_11_56_455729468
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_14_21_477142859
++ mkdir 2013_01_12_13_14_21_477142859
++ cd 2013_01_12_13_14_21_477142859
++ touch out.dat
++ env
++ echo 2013_01_12_13_14_21_477142859
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_17_01_794904177
++ mkdir 2013_01_12_13_17_01_794904177
++ cd 2013_01_12_13_17_01_794904177
++ touch out.dat
++ env
++ echo 2013_01_12_13_17_01_794904177
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_20_04_068537206
++ mkdir 2013_01_12_13_20_04_068537206
++ cd 2013_01_12_13_20_04_068537206
++ touch out.dat
++ env
++ echo 2013_01_12_13_20_04_068537206
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_23_40_769872494
++ mkdir 2013_01_12_13_23_40_769872494
++ cd 2013_01_12_13_23_40_769872494
++ touch out.dat
++ env
++ echo 2013_01_12_13_23_40_769872494
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_28_10_343368321
++ mkdir 2013_01_12_13_28_10_343368321
++ cd 2013_01_12_13_28_10_343368321
++ touch out.dat
++ env
++ echo 2013_01_12_13_28_10_343368321
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=8 --ntasks=8 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=10
++ '[' 10 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_34_33_151697331
++ mkdir 2013_01_12_13_34_33_151697331
++ cd 2013_01_12_13_34_33_151697331
++ touch out.dat
++ env
++ echo 2013_01_12_13_34_33_151697331
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 10
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=10 --ntasks=10 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_36_38_762852533
++ mkdir 2013_01_12_13_36_38_762852533
++ cd 2013_01_12_13_36_38_762852533
++ touch out.dat
++ env
++ echo 2013_01_12_13_36_38_762852533
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 10
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=10 --ntasks=10 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_38_34_890744503
++ mkdir 2013_01_12_13_38_34_890744503
++ cd 2013_01_12_13_38_34_890744503
++ touch out.dat
++ env
++ echo 2013_01_12_13_38_34_890744503
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 10
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=10 --ntasks=10 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_40_43_770083475
++ mkdir 2013_01_12_13_40_43_770083475
++ cd 2013_01_12_13_40_43_770083475
++ touch out.dat
++ env
++ echo 2013_01_12_13_40_43_770083475
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 10
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=10 --ntasks=10 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_43_09_889357675
++ mkdir 2013_01_12_13_43_09_889357675
++ cd 2013_01_12_13_43_09_889357675
++ touch out.dat
++ env
++ echo 2013_01_12_13_43_09_889357675
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 10
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=10 --ntasks=10 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_46_04_418547301
++ mkdir 2013_01_12_13_46_04_418547301
++ cd 2013_01_12_13_46_04_418547301
++ touch out.dat
++ env
++ echo 2013_01_12_13_46_04_418547301
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 10
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=10 --ntasks=10 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_49_42_492049113
++ mkdir 2013_01_12_13_49_42_492049113
++ cd 2013_01_12_13_49_42_492049113
++ touch out.dat
++ env
++ echo 2013_01_12_13_49_42_492049113
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 10
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=10 --ntasks=10 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=12
++ '[' 12 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_54_46_921534583
++ mkdir 2013_01_12_13_54_46_921534583
++ cd 2013_01_12_13_54_46_921534583
++ touch out.dat
++ env
++ echo 2013_01_12_13_54_46_921534583
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 12
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=12 --ntasks=12 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_56_33_653773817
++ mkdir 2013_01_12_13_56_33_653773817
++ cd 2013_01_12_13_56_33_653773817
++ touch out.dat
++ env
++ echo 2013_01_12_13_56_33_653773817
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 12
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=12 --ntasks=12 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_58_11_213210247
++ mkdir 2013_01_12_13_58_11_213210247
++ cd 2013_01_12_13_58_11_213210247
++ touch out.dat
++ env
++ echo 2013_01_12_13_58_11_213210247
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 12
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=12 --ntasks=12 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_13_59_59_002487427
++ mkdir 2013_01_12_13_59_59_002487427
++ cd 2013_01_12_13_59_59_002487427
++ touch out.dat
++ env
++ echo 2013_01_12_13_59_59_002487427
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 12
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=12 --ntasks=12 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_02_02_851285705
++ mkdir 2013_01_12_14_02_02_851285705
++ cd 2013_01_12_14_02_02_851285705
++ touch out.dat
++ env
++ echo 2013_01_12_14_02_02_851285705
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 12
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=12 --ntasks=12 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_04_28_970356911
++ mkdir 2013_01_12_14_04_28_970356911
++ cd 2013_01_12_14_04_28_970356911
++ touch out.dat
++ env
++ echo 2013_01_12_14_04_28_970356911
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 12
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=12 --ntasks=12 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_07_29_814845418
++ mkdir 2013_01_12_14_07_29_814845418
++ cd 2013_01_12_14_07_29_814845418
++ touch out.dat
++ env
++ echo 2013_01_12_14_07_29_814845418
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 12
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=12 --ntasks=12 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=14
++ '[' 14 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_11_46_131866430
++ mkdir 2013_01_12_14_11_46_131866430
++ cd 2013_01_12_14_11_46_131866430
++ touch out.dat
++ env
++ echo 2013_01_12_14_11_46_131866430
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 14
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=14 --ntasks=14 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_13_18_630402673
++ mkdir 2013_01_12_14_13_18_630402673
++ cd 2013_01_12_14_13_18_630402673
++ touch out.dat
++ env
++ echo 2013_01_12_14_13_18_630402673
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 14
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=14 --ntasks=14 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_14_43_208310982
++ mkdir 2013_01_12_14_14_43_208310982
++ cd 2013_01_12_14_14_43_208310982
++ touch out.dat
++ env
++ echo 2013_01_12_14_14_43_208310982
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 14
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=14 --ntasks=14 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_16_16_901119589
++ mkdir 2013_01_12_14_16_16_901119589
++ cd 2013_01_12_14_16_16_901119589
++ touch out.dat
++ env
++ echo 2013_01_12_14_16_16_901119589
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 14
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=14 --ntasks=14 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_18_03_415613876
++ mkdir 2013_01_12_14_18_03_415613876
++ cd 2013_01_12_14_18_03_415613876
++ touch out.dat
++ env
++ echo 2013_01_12_14_18_03_415613876
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 14
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=14 --ntasks=14 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_20_10_235526589
++ mkdir 2013_01_12_14_20_10_235526589
++ cd 2013_01_12_14_20_10_235526589
++ touch out.dat
++ env
++ echo 2013_01_12_14_20_10_235526589
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 14
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=14 --ntasks=14 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_22_45_845518451
++ mkdir 2013_01_12_14_22_45_845518451
++ cd 2013_01_12_14_22_45_845518451
++ touch out.dat
++ env
++ echo 2013_01_12_14_22_45_845518451
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 14
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=14 --ntasks=14 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_26_26_321267709
++ mkdir 2013_01_12_14_26_26_321267709
++ cd 2013_01_12_14_26_26_321267709
++ touch out.dat
++ env
++ echo 2013_01_12_14_26_26_321267709
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_27_48_905193029
++ mkdir 2013_01_12_14_27_48_905193029
++ cd 2013_01_12_14_27_48_905193029
++ touch out.dat
++ env
++ echo 2013_01_12_14_27_48_905193029
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_29_03_861672190
++ mkdir 2013_01_12_14_29_03_861672190
++ cd 2013_01_12_14_29_03_861672190
++ touch out.dat
++ env
++ echo 2013_01_12_14_29_03_861672190
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_30_26_471078482
++ mkdir 2013_01_12_14_30_26_471078482
++ cd 2013_01_12_14_30_26_471078482
++ touch out.dat
++ env
++ echo 2013_01_12_14_30_26_471078482
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_32_01_614309056
++ mkdir 2013_01_12_14_32_01_614309056
++ cd 2013_01_12_14_32_01_614309056
++ touch out.dat
++ env
++ echo 2013_01_12_14_32_01_614309056
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_33_54_034863269
++ mkdir 2013_01_12_14_33_54_034863269
++ cd 2013_01_12_14_33_54_034863269
++ touch out.dat
++ env
++ echo 2013_01_12_14_33_54_034863269
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_36_12_175852967
++ mkdir 2013_01_12_14_36_12_175852967
++ cd 2013_01_12_14_36_12_175852967
++ touch out.dat
++ env
++ echo 2013_01_12_14_36_12_175852967
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=16 --ntasks=16 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=18
++ '[' 18 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_39_27_157176313
++ mkdir 2013_01_12_14_39_27_157176313
++ cd 2013_01_12_14_39_27_157176313
++ touch out.dat
++ env
++ echo 2013_01_12_14_39_27_157176313
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 18
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=18 --ntasks=18 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_40_40_364819318
++ mkdir 2013_01_12_14_40_40_364819318
++ cd 2013_01_12_14_40_40_364819318
++ touch out.dat
++ env
++ echo 2013_01_12_14_40_40_364819318
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 18
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=18 --ntasks=18 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_41_49_144797601
++ mkdir 2013_01_12_14_41_49_144797601
++ cd 2013_01_12_14_41_49_144797601
++ touch out.dat
++ env
++ echo 2013_01_12_14_41_49_144797601
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 18
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=18 --ntasks=18 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_43_03_588651999
++ mkdir 2013_01_12_14_43_03_588651999
++ cd 2013_01_12_14_43_03_588651999
++ touch out.dat
++ env
++ echo 2013_01_12_14_43_03_588651999
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 18
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=18 --ntasks=18 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_44_28_571197213
++ mkdir 2013_01_12_14_44_28_571197213
++ cd 2013_01_12_14_44_28_571197213
++ touch out.dat
++ env
++ echo 2013_01_12_14_44_28_571197213
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 18
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=18 --ntasks=18 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_46_08_134334332
++ mkdir 2013_01_12_14_46_08_134334332
++ cd 2013_01_12_14_46_08_134334332
++ touch out.dat
++ env
++ echo 2013_01_12_14_46_08_134334332
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 18
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=18 --ntasks=18 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_48_12_234869872
++ mkdir 2013_01_12_14_48_12_234869872
++ cd 2013_01_12_14_48_12_234869872
++ touch out.dat
++ env
++ echo 2013_01_12_14_48_12_234869872
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 18
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=18 --ntasks=18 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=20
++ '[' 20 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_51_05_398391846
++ mkdir 2013_01_12_14_51_05_398391846
++ cd 2013_01_12_14_51_05_398391846
++ touch out.dat
++ env
++ echo 2013_01_12_14_51_05_398391846
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 20
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=20 --ntasks=20 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_52_10_114284635
++ mkdir 2013_01_12_14_52_10_114284635
++ cd 2013_01_12_14_52_10_114284635
++ touch out.dat
++ env
++ echo 2013_01_12_14_52_10_114284635
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 20
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=20 --ntasks=20 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_53_11_532395329
++ mkdir 2013_01_12_14_53_11_532395329
++ cd 2013_01_12_14_53_11_532395329
++ touch out.dat
++ env
++ echo 2013_01_12_14_53_11_532395329
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 20
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=20 --ntasks=20 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_54_19_038439700
++ mkdir 2013_01_12_14_54_19_038439700
++ cd 2013_01_12_14_54_19_038439700
++ touch out.dat
++ env
++ echo 2013_01_12_14_54_19_038439700
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 20
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=20 --ntasks=20 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_55_34_220252982
++ mkdir 2013_01_12_14_55_34_220252982
++ cd 2013_01_12_14_55_34_220252982
++ touch out.dat
++ env
++ echo 2013_01_12_14_55_34_220252982
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 20
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=20 --ntasks=20 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_57_04_536102957
++ mkdir 2013_01_12_14_57_04_536102957
++ cd 2013_01_12_14_57_04_536102957
++ touch out.dat
++ env
++ echo 2013_01_12_14_57_04_536102957
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 20
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=20 --ntasks=20 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_14_58_56_217555427
++ mkdir 2013_01_12_14_58_56_217555427
++ cd 2013_01_12_14_58_56_217555427
++ touch out.dat
++ env
++ echo 2013_01_12_14_58_56_217555427
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 20
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=20 --ntasks=20 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=22
++ '[' 22 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_01_32_010291801
++ mkdir 2013_01_12_15_01_32_010291801
++ cd 2013_01_12_15_01_32_010291801
++ touch out.dat
++ env
++ echo 2013_01_12_15_01_32_010291801
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 22
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=22 --ntasks=22 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_02_34_190292141
++ mkdir 2013_01_12_15_02_34_190292141
++ cd 2013_01_12_15_02_34_190292141
++ touch out.dat
++ env
++ echo 2013_01_12_15_02_34_190292141
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 22
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=22 --ntasks=22 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_03_31_103348567
++ mkdir 2013_01_12_15_03_31_103348567
++ cd 2013_01_12_15_03_31_103348567
++ touch out.dat
++ env
++ echo 2013_01_12_15_03_31_103348567
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 22
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=22 --ntasks=22 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_04_35_039862784
++ mkdir 2013_01_12_15_04_35_039862784
++ cd 2013_01_12_15_04_35_039862784
++ touch out.dat
++ env
++ echo 2013_01_12_15_04_35_039862784
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 22
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=22 --ntasks=22 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_05_46_551846451
++ mkdir 2013_01_12_15_05_46_551846451
++ cd 2013_01_12_15_05_46_551846451
++ touch out.dat
++ env
++ echo 2013_01_12_15_05_46_551846451
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 22
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=22 --ntasks=22 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_07_10_415221268
++ mkdir 2013_01_12_15_07_10_415221268
++ cd 2013_01_12_15_07_10_415221268
++ touch out.dat
++ env
++ echo 2013_01_12_15_07_10_415221268
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 22
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=22 --ntasks=22 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_08_54_252362836
++ mkdir 2013_01_12_15_08_54_252362836
++ cd 2013_01_12_15_08_54_252362836
++ touch out.dat
++ env
++ echo 2013_01_12_15_08_54_252362836
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 22
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=22 --ntasks=22 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=24
++ '[' 24 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_11_18_700932554
++ mkdir 2013_01_12_15_11_18_700932554
++ cd 2013_01_12_15_11_18_700932554
++ touch out.dat
++ env
++ echo 2013_01_12_15_11_18_700932554
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 24
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=24 --ntasks=24 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_12_15_613541406
++ mkdir 2013_01_12_15_12_15_613541406
++ cd 2013_01_12_15_12_15_613541406
++ touch out.dat
++ env
++ echo 2013_01_12_15_12_15_613541406
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 24
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=24 --ntasks=24 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_13_08_244812400
++ mkdir 2013_01_12_15_13_08_244812400
++ cd 2013_01_12_15_13_08_244812400
++ touch out.dat
++ env
++ echo 2013_01_12_15_13_08_244812400
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 24
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=24 --ntasks=24 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_14_06_077876052
++ mkdir 2013_01_12_15_14_06_077876052
++ cd 2013_01_12_15_14_06_077876052
++ touch out.dat
++ env
++ echo 2013_01_12_15_14_06_077876052
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 24
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=24 --ntasks=24 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_15_12_033258433
++ mkdir 2013_01_12_15_15_12_033258433
++ cd 2013_01_12_15_15_12_033258433
++ touch out.dat
++ env
++ echo 2013_01_12_15_15_12_033258433
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 24
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=24 --ntasks=24 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_16_28_567238934
++ mkdir 2013_01_12_15_16_28_567238934
++ cd 2013_01_12_15_16_28_567238934
++ touch out.dat
++ env
++ echo 2013_01_12_15_16_28_567238934
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 24
++ echo 'turbo: 0'
++ cp ../../opac.txt .
++ cp ../../input.dat .
++ srun --nodes=24 --ntasks=24 -e f.err ../../sphot
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+slurmd[rzmerl17]: *** JOB 664521 CANCELLED AT 2013-01-12T15:17:36 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.

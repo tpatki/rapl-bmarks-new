@@ -1,0 +1,4406 @@
++ i=16
++ minthreads=4
++ j=8
++ maxnodes=32
++ export PKG_MINW_MINS=0x38198
++ PKG_MINW_MINS=0x38198
++ export PP0_MINW_MINS=0x38198
++ PP0_MINW_MINS=0x38198
++ export DRAM_MINW_MINS=0x38078
++ DRAM_MINW_MINS=0x38078
++ export MSR_PKG_POWER_LIMIT=0x0
++ MSR_PKG_POWER_LIMIT=0x0
++ export MSR_PP0_POWER_LIMIT=0x0
++ MSR_PP0_POWER_LIMIT=0x0
++ export MSR_DRAM_POWER_LIMIT=0x0
++ MSR_DRAM_POWER_LIMIT=0x0
++ export MSR_RANK_MOD=1
++ MSR_RANK_MOD=1
++ export SAMPLE=1
++ SAMPLE=1
++ t=0
++ export TURBO_ENABLE=1
++ TURBO_ENABLE=1
++ export FUNC_INTERCEPT=1
++ FUNC_INTERCEPT=1
++ export READ_WRITE=0
++ READ_WRITE=0
++ export READ_ONLY=1
++ READ_ONLY=1
++ i=16
++ j=8
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_17_46_032003755
++ mkdir 2013_01_12_15_17_46_032003755
++ cd 2013_01_12_15_17_46_032003755
++ touch out.dat
++ env
++ echo 2013_01_12_15_17_46_032003755
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo:  1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_20_03_607445397
++ mkdir 2013_01_12_15_20_03_607445397
++ cd 2013_01_12_15_20_03_607445397
++ touch out.dat
++ env
++ echo 2013_01_12_15_20_03_607445397
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo:  1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_22_36_197080451
++ mkdir 2013_01_12_15_22_36_197080451
++ cd 2013_01_12_15_22_36_197080451
++ touch out.dat
++ env
++ echo 2013_01_12_15_22_36_197080451
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo:  1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_25_42_360725086
++ mkdir 2013_01_12_15_25_42_360725086
++ cd 2013_01_12_15_25_42_360725086
++ touch out.dat
++ env
++ echo 2013_01_12_15_25_42_360725086
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo:  1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_29_16_944401669
++ mkdir 2013_01_12_15_29_16_944401669
++ cd 2013_01_12_15_29_16_944401669
++ touch out.dat
++ env
++ echo 2013_01_12_15_29_16_944401669
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo:  1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_33_37_834241000
++ mkdir 2013_01_12_15_33_37_834241000
++ cd 2013_01_12_15_33_37_834241000
++ touch out.dat
++ env
++ echo 2013_01_12_15_33_37_834241000
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo:  1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_38_27_039118455
++ mkdir 2013_01_12_15_38_27_039118455
++ cd 2013_01_12_15_38_27_039118455
++ touch out.dat
++ env
++ echo 2013_01_12_15_38_27_039118455
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo:  1'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=10
++ '[' 10 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_47_07_722253699
++ mkdir 2013_01_12_15_47_07_722253699
++ cd 2013_01_12_15_47_07_722253699
++ touch out.dat
++ env
++ echo 2013_01_12_15_47_07_722253699
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 10
++ echo 'turbo:  1'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_49_00_930916719
++ mkdir 2013_01_12_15_49_00_930916719
++ cd 2013_01_12_15_49_00_930916719
++ touch out.dat
++ env
++ echo 2013_01_12_15_49_00_930916719
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 10
++ echo 'turbo:  1'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_51_08_599451005
++ mkdir 2013_01_12_15_51_08_599451005
++ cd 2013_01_12_15_51_08_599451005
++ touch out.dat
++ env
++ echo 2013_01_12_15_51_08_599451005
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 10
++ echo 'turbo:  1'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_53_38_760731186
++ mkdir 2013_01_12_15_53_38_760731186
++ cd 2013_01_12_15_53_38_760731186
++ touch out.dat
++ env
++ echo 2013_01_12_15_53_38_760731186
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 10
++ echo 'turbo:  1'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_15_56_37_781447871
++ mkdir 2013_01_12_15_56_37_781447871
++ cd 2013_01_12_15_56_37_781447871
++ touch out.dat
++ env
++ echo 2013_01_12_15_56_37_781447871
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 10
++ echo 'turbo:  1'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_00_22_093488391
++ mkdir 2013_01_12_16_00_22_093488391
++ cd 2013_01_12_16_00_22_093488391
++ touch out.dat
++ env
++ echo 2013_01_12_16_00_22_093488391
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 10
++ echo 'turbo:  1'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_04_28_261633859
++ mkdir 2013_01_12_16_04_28_261633859
++ cd 2013_01_12_16_04_28_261633859
++ touch out.dat
++ env
++ echo 2013_01_12_16_04_28_261633859
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 10
++ echo 'turbo:  1'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=12
++ '[' 12 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_11_31_672538387
++ mkdir 2013_01_12_16_11_31_672538387
++ cd 2013_01_12_16_11_31_672538387
++ touch out.dat
++ env
++ echo 2013_01_12_16_11_31_672538387
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 12
++ echo 'turbo:  1'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_13_10_169175289
++ mkdir 2013_01_12_16_13_10_169175289
++ cd 2013_01_12_16_13_10_169175289
++ touch out.dat
++ env
++ echo 2013_01_12_16_13_10_169175289
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 12
++ echo 'turbo:  1'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_14_59_339775663
++ mkdir 2013_01_12_16_14_59_339775663
++ cd 2013_01_12_16_14_59_339775663
++ touch out.dat
++ env
++ echo 2013_01_12_16_14_59_339775663
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 12
++ echo 'turbo:  1'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_17_07_579431587
++ mkdir 2013_01_12_16_17_07_579431587
++ cd 2013_01_12_16_17_07_579431587
++ touch out.dat
++ env
++ echo 2013_01_12_16_17_07_579431587
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 12
++ echo 'turbo:  1'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_19_37_203628786
++ mkdir 2013_01_12_16_19_37_203628786
++ cd 2013_01_12_16_19_37_203628786
++ touch out.dat
++ env
++ echo 2013_01_12_16_19_37_203628786
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 12
++ echo 'turbo:  1'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_22_43_516883192
++ mkdir 2013_01_12_16_22_43_516883192
++ cd 2013_01_12_16_22_43_516883192
++ touch out.dat
++ env
++ echo 2013_01_12_16_22_43_516883192
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 12
++ echo 'turbo:  1'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_26_06_729363030
++ mkdir 2013_01_12_16_26_06_729363030
++ cd 2013_01_12_16_26_06_729363030
++ touch out.dat
++ env
++ echo 2013_01_12_16_26_06_729363030
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 12
++ echo 'turbo:  1'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=14
++ '[' 14 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_31_58_724345787
++ mkdir 2013_01_12_16_31_58_724345787
++ cd 2013_01_12_16_31_58_724345787
++ touch out.dat
++ env
++ echo 2013_01_12_16_31_58_724345787
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 14
++ echo 'turbo:  1'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_33_24_891595387
++ mkdir 2013_01_12_16_33_24_891595387
++ cd 2013_01_12_16_33_24_891595387
++ touch out.dat
++ env
++ echo 2013_01_12_16_33_24_891595387
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 14
++ echo 'turbo:  1'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_34_58_078415546
++ mkdir 2013_01_12_16_34_58_078415546
++ cd 2013_01_12_16_34_58_078415546
++ touch out.dat
++ env
++ echo 2013_01_12_16_34_58_078415546
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 14
++ echo 'turbo:  1'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_36_47_554524679
++ mkdir 2013_01_12_16_36_47_554524679
++ cd 2013_01_12_16_36_47_554524679
++ touch out.dat
++ env
++ echo 2013_01_12_16_36_47_554524679
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 14
++ echo 'turbo:  1'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_38_56_362306096
++ mkdir 2013_01_12_16_38_56_362306096
++ cd 2013_01_12_16_38_56_362306096
++ touch out.dat
++ env
++ echo 2013_01_12_16_38_56_362306096
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 14
++ echo 'turbo:  1'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_41_33_241892878
++ mkdir 2013_01_12_16_41_33_241892878
++ cd 2013_01_12_16_41_33_241892878
++ touch out.dat
++ env
++ echo 2013_01_12_16_41_33_241892878
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 14
++ echo 'turbo:  1'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_44_30_998398171
++ mkdir 2013_01_12_16_44_30_998398171
++ cd 2013_01_12_16_44_30_998398171
++ touch out.dat
++ env
++ echo 2013_01_12_16_44_30_998398171
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 14
++ echo 'turbo:  1'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_49_23_544672344
++ mkdir 2013_01_12_16_49_23_544672344
++ cd 2013_01_12_16_49_23_544672344
++ touch out.dat
++ env
++ echo 2013_01_12_16_49_23_544672344
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo:  1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_50_40_929574210
++ mkdir 2013_01_12_16_50_40_929574210
++ cd 2013_01_12_16_50_40_929574210
++ touch out.dat
++ env
++ echo 2013_01_12_16_50_40_929574210
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo:  1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_52_05_066055574
++ mkdir 2013_01_12_16_52_05_066055574
++ cd 2013_01_12_16_52_05_066055574
++ touch out.dat
++ env
++ echo 2013_01_12_16_52_05_066055574
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo:  1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_53_44_411434220
++ mkdir 2013_01_12_16_53_44_411434220
++ cd 2013_01_12_16_53_44_411434220
++ touch out.dat
++ env
++ echo 2013_01_12_16_53_44_411434220
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo:  1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_55_40_671324739
++ mkdir 2013_01_12_16_55_40_671324739
++ cd 2013_01_12_16_55_40_671324739
++ touch out.dat
++ env
++ echo 2013_01_12_16_55_40_671324739
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo:  1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_16_57_58_999091593
++ mkdir 2013_01_12_16_57_58_999091593
++ cd 2013_01_12_16_57_58_999091593
++ touch out.dat
++ env
++ echo 2013_01_12_16_57_58_999091593
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo:  1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_00_33_876369309
++ mkdir 2013_01_12_17_00_33_876369309
++ cd 2013_01_12_17_00_33_876369309
++ touch out.dat
++ env
++ echo 2013_01_12_17_00_33_876369309
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo:  1'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=18
++ '[' 18 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_04_45_672522801
++ mkdir 2013_01_12_17_04_45_672522801
++ cd 2013_01_12_17_04_45_672522801
++ touch out.dat
++ env
++ echo 2013_01_12_17_04_45_672522801
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 18
++ echo 'turbo:  1'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_05_59_203201842
++ mkdir 2013_01_12_17_05_59_203201842
++ cd 2013_01_12_17_05_59_203201842
++ touch out.dat
++ env
++ echo 2013_01_12_17_05_59_203201842
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 18
++ echo 'turbo:  1'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_07_19_622440035
++ mkdir 2013_01_12_17_07_19_622440035
++ cd 2013_01_12_17_07_19_622440035
++ touch out.dat
++ env
++ echo 2013_01_12_17_07_19_622440035
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 18
++ echo 'turbo:  1'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_08_52_238413466
++ mkdir 2013_01_12_17_08_52_238413466
++ cd 2013_01_12_17_08_52_238413466
++ touch out.dat
++ env
++ echo 2013_01_12_17_08_52_238413466
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 18
++ echo 'turbo:  1'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_10_36_278552469
++ mkdir 2013_01_12_17_10_36_278552469
++ cd 2013_01_12_17_10_36_278552469
++ touch out.dat
++ env
++ echo 2013_01_12_17_10_36_278552469
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 18
++ echo 'turbo:  1'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_12_43_366468206
++ mkdir 2013_01_12_17_12_43_366468206
++ cd 2013_01_12_17_12_43_366468206
++ touch out.dat
++ env
++ echo 2013_01_12_17_12_43_366468206
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 18
++ echo 'turbo:  1'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_15_01_892808113
++ mkdir 2013_01_12_17_15_01_892808113
++ cd 2013_01_12_17_15_01_892808113
++ touch out.dat
++ env
++ echo 2013_01_12_17_15_01_892808113
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 18
++ echo 'turbo:  1'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=20
++ '[' 20 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_19_03_958199554
++ mkdir 2013_01_12_17_19_03_958199554
++ cd 2013_01_12_17_19_03_958199554
++ touch out.dat
++ env
++ echo 2013_01_12_17_19_03_958199554
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 20
++ echo 'turbo:  1'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_20_12_489505380
++ mkdir 2013_01_12_17_20_12_489505380
++ cd 2013_01_12_17_20_12_489505380
++ touch out.dat
++ env
++ echo 2013_01_12_17_20_12_489505380
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 20
++ echo 'turbo:  1'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_21_24_116202301
++ mkdir 2013_01_12_17_21_24_116202301
++ cd 2013_01_12_17_21_24_116202301
++ touch out.dat
++ env
++ echo 2013_01_12_17_21_24_116202301
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 20
++ echo 'turbo:  1'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_22_44_897539446
++ mkdir 2013_01_12_17_22_44_897539446
++ cd 2013_01_12_17_22_44_897539446
++ touch out.dat
++ env
++ echo 2013_01_12_17_22_44_897539446
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 20
++ echo 'turbo:  1'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_24_19_326621042
++ mkdir 2013_01_12_17_24_19_326621042
++ cd 2013_01_12_17_24_19_326621042
++ touch out.dat
++ env
++ echo 2013_01_12_17_24_19_326621042
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 20
++ echo 'turbo:  1'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_26_17_176634830
++ mkdir 2013_01_12_17_26_17_176634830
++ cd 2013_01_12_17_26_17_176634830
++ touch out.dat
++ env
++ echo 2013_01_12_17_26_17_176634830
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 20
++ echo 'turbo:  1'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_28_24_766468236
++ mkdir 2013_01_12_17_28_24_766468236
++ cd 2013_01_12_17_28_24_766468236
++ touch out.dat
++ env
++ echo 2013_01_12_17_28_24_766468236
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 20
++ echo 'turbo:  1'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=22
++ '[' 22 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_32_03_277594070
++ mkdir 2013_01_12_17_32_03_277594070
++ cd 2013_01_12_17_32_03_277594070
++ touch out.dat
++ env
++ echo 2013_01_12_17_32_03_277594070
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 22
++ echo 'turbo:  1'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_33_07_943013029
++ mkdir 2013_01_12_17_33_07_943013029
++ cd 2013_01_12_17_33_07_943013029
++ touch out.dat
++ env
++ echo 2013_01_12_17_33_07_943013029
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 22
++ echo 'turbo:  1'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_34_15_815518659
++ mkdir 2013_01_12_17_34_15_815518659
++ cd 2013_01_12_17_34_15_815518659
++ touch out.dat
++ env
++ echo 2013_01_12_17_34_15_815518659
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 22
++ echo 'turbo:  1'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_35_30_349574982
++ mkdir 2013_01_12_17_35_30_349574982
++ cd 2013_01_12_17_35_30_349574982
++ touch out.dat
++ env
++ echo 2013_01_12_17_35_30_349574982
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 22
++ echo 'turbo:  1'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_36_55_286237623
++ mkdir 2013_01_12_17_36_55_286237623
++ cd 2013_01_12_17_36_55_286237623
++ touch out.dat
++ env
++ echo 2013_01_12_17_36_55_286237623
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 22
++ echo 'turbo:  1'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_38_43_375257184
++ mkdir 2013_01_12_17_38_43_375257184
++ cd 2013_01_12_17_38_43_375257184
++ touch out.dat
++ env
++ echo 2013_01_12_17_38_43_375257184
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 22
++ echo 'turbo:  1'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_40_43_703095008
++ mkdir 2013_01_12_17_40_43_703095008
++ cd 2013_01_12_17_40_43_703095008
++ touch out.dat
++ env
++ echo 2013_01_12_17_40_43_703095008
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 22
++ echo 'turbo:  1'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=24
++ '[' 24 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_44_02_411047117
++ mkdir 2013_01_12_17_44_02_411047117
++ cd 2013_01_12_17_44_02_411047117
++ touch out.dat
++ env
++ echo 2013_01_12_17_44_02_411047117
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 24
++ echo 'turbo:  1'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_45_03_231392927
++ mkdir 2013_01_12_17_45_03_231392927
++ cd 2013_01_12_17_45_03_231392927
++ touch out.dat
++ env
++ echo 2013_01_12_17_45_03_231392927
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 24
++ echo 'turbo:  1'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_46_07_299309506
++ mkdir 2013_01_12_17_46_07_299309506
++ cd 2013_01_12_17_46_07_299309506
++ touch out.dat
++ env
++ echo 2013_01_12_17_46_07_299309506
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 24
++ echo 'turbo:  1'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_47_17_359489223
++ mkdir 2013_01_12_17_47_17_359489223
++ cd 2013_01_12_17_47_17_359489223
++ touch out.dat
++ env
++ echo 2013_01_12_17_47_17_359489223
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 24
++ echo 'turbo:  1'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_48_38_050766414
++ mkdir 2013_01_12_17_48_38_050766414
++ cd 2013_01_12_17_48_38_050766414
++ touch out.dat
++ env
++ echo 2013_01_12_17_48_38_050766414
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 24
++ echo 'turbo:  1'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_50_17_727100675
++ mkdir 2013_01_12_17_50_17_727100675
++ cd 2013_01_12_17_50_17_727100675
++ touch out.dat
++ env
++ echo 2013_01_12_17_50_17_727100675
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 24
++ echo 'turbo:  1'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_52_09_577348164
++ mkdir 2013_01_12_17_52_09_577348164
++ cd 2013_01_12_17_52_09_577348164
++ touch out.dat
++ env
++ echo 2013_01_12_17_52_09_577348164
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 24
++ echo 'turbo:  1'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=26
++ '[' 26 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_55_21_653882592
++ mkdir 2013_01_12_17_55_21_653882592
++ cd 2013_01_12_17_55_21_653882592
++ touch out.dat
++ env
++ echo 2013_01_12_17_55_21_653882592
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 26
++ echo 'turbo:  1'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_56_20_248711428
++ mkdir 2013_01_12_17_56_20_248711428
++ cd 2013_01_12_17_56_20_248711428
++ touch out.dat
++ env
++ echo 2013_01_12_17_56_20_248711428
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 26
++ echo 'turbo:  1'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_57_21_654759402
++ mkdir 2013_01_12_17_57_21_654759402
++ cd 2013_01_12_17_57_21_654759402
++ touch out.dat
++ env
++ echo 2013_01_12_17_57_21_654759402
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 26
++ echo 'turbo:  1'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_58_29_008587948
++ mkdir 2013_01_12_17_58_29_008587948
++ cd 2013_01_12_17_58_29_008587948
++ touch out.dat
++ env
++ echo 2013_01_12_17_58_29_008587948
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 26
++ echo 'turbo:  1'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_17_59_46_134495147
++ mkdir 2013_01_12_17_59_46_134495147
++ cd 2013_01_12_17_59_46_134495147
++ touch out.dat
++ env
++ echo 2013_01_12_17_59_46_134495147
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 26
++ echo 'turbo:  1'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_01_21_458665159
++ mkdir 2013_01_12_18_01_21_458665159
++ cd 2013_01_12_18_01_21_458665159
++ touch out.dat
++ env
++ echo 2013_01_12_18_01_21_458665159
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 26
++ echo 'turbo:  1'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_03_09_482495639
++ mkdir 2013_01_12_18_03_09_482495639
++ cd 2013_01_12_18_03_09_482495639
++ touch out.dat
++ env
++ echo 2013_01_12_18_03_09_482495639
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 26
++ echo 'turbo:  1'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=28
++ '[' 28 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_06_01_184537094
++ mkdir 2013_01_12_18_06_01_184537094
++ cd 2013_01_12_18_06_01_184537094
++ touch out.dat
++ env
++ echo 2013_01_12_18_06_01_184537094
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 28
++ echo 'turbo:  1'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_06_57_006931905
++ mkdir 2013_01_12_18_06_57_006931905
++ cd 2013_01_12_18_06_57_006931905
++ touch out.dat
++ env
++ echo 2013_01_12_18_06_57_006931905
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 28
++ echo 'turbo:  1'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_07_55_076552775
++ mkdir 2013_01_12_18_07_55_076552775
++ cd 2013_01_12_18_07_55_076552775
++ touch out.dat
++ env
++ echo 2013_01_12_18_07_55_076552775
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 28
++ echo 'turbo:  1'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_08_58_706488207
++ mkdir 2013_01_12_18_08_58_706488207
++ cd 2013_01_12_18_08_58_706488207
++ touch out.dat
++ env
++ echo 2013_01_12_18_08_58_706488207
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 28
++ echo 'turbo:  1'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_10_09_861626029
++ mkdir 2013_01_12_18_10_09_861626029
++ cd 2013_01_12_18_10_09_861626029
++ touch out.dat
++ env
++ echo 2013_01_12_18_10_09_861626029
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 28
++ echo 'turbo:  1'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_11_38_640596710
++ mkdir 2013_01_12_18_11_38_640596710
++ cd 2013_01_12_18_11_38_640596710
++ touch out.dat
++ env
++ echo 2013_01_12_18_11_38_640596710
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 28
++ echo 'turbo:  1'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_13_13_902185391
++ mkdir 2013_01_12_18_13_13_902185391
++ cd 2013_01_12_18_13_13_902185391
++ touch out.dat
++ env
++ echo 2013_01_12_18_13_13_902185391
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 28
++ echo 'turbo:  1'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=30
++ '[' 30 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_15_56_661368655
++ mkdir 2013_01_12_18_15_56_661368655
++ cd 2013_01_12_18_15_56_661368655
++ touch out.dat
++ env
++ echo 2013_01_12_18_15_56_661368655
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 30
++ echo 'turbo:  1'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_16_49_539618700
++ mkdir 2013_01_12_18_16_49_539618700
++ cd 2013_01_12_18_16_49_539618700
++ touch out.dat
++ env
++ echo 2013_01_12_18_16_49_539618700
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 30
++ echo 'turbo:  1'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_17_43_607433707
++ mkdir 2013_01_12_18_17_43_607433707
++ cd 2013_01_12_18_17_43_607433707
++ touch out.dat
++ env
++ echo 2013_01_12_18_17_43_607433707
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 30
++ echo 'turbo:  1'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_18_46_258891683
++ mkdir 2013_01_12_18_18_46_258891683
++ cd 2013_01_12_18_18_46_258891683
++ touch out.dat
++ env
++ echo 2013_01_12_18_18_46_258891683
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 30
++ echo 'turbo:  1'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_19_56_001568638
++ mkdir 2013_01_12_18_19_56_001568638
++ cd 2013_01_12_18_19_56_001568638
++ touch out.dat
++ env
++ echo 2013_01_12_18_19_56_001568638
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 30
++ echo 'turbo:  1'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_21_20_391224616
++ mkdir 2013_01_12_18_21_20_391224616
++ cd 2013_01_12_18_21_20_391224616
++ touch out.dat
++ env
++ echo 2013_01_12_18_21_20_391224616
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 30
++ echo 'turbo:  1'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_22_53_435980191
++ mkdir 2013_01_12_18_22_53_435980191
++ cd 2013_01_12_18_22_53_435980191
++ touch out.dat
++ env
++ echo 2013_01_12_18_22_53_435980191
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 30
++ echo 'turbo:  1'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_25_27_214813325
++ mkdir 2013_01_12_18_25_27_214813325
++ cd 2013_01_12_18_25_27_214813325
++ touch out.dat
++ env
++ echo 2013_01_12_18_25_27_214813325
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo:  1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_26_18_392846118
++ mkdir 2013_01_12_18_26_18_392846118
++ cd 2013_01_12_18_26_18_392846118
++ touch out.dat
++ env
++ echo 2013_01_12_18_26_18_392846118
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo:  1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_27_11_355646019
++ mkdir 2013_01_12_18_27_11_355646019
++ cd 2013_01_12_18_27_11_355646019
++ touch out.dat
++ env
++ echo 2013_01_12_18_27_11_355646019
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo:  1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_28_11_483427153
++ mkdir 2013_01_12_18_28_11_483427153
++ cd 2013_01_12_18_28_11_483427153
++ touch out.dat
++ env
++ echo 2013_01_12_18_28_11_483427153
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo:  1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_29_16_493926728
++ mkdir 2013_01_12_18_29_16_493926728
++ cd 2013_01_12_18_29_16_493926728
++ touch out.dat
++ env
++ echo 2013_01_12_18_29_16_493926728
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo:  1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_30_35_351756724
++ mkdir 2013_01_12_18_30_35_351756724
++ cd 2013_01_12_18_30_35_351756724
++ touch out.dat
++ env
++ echo 2013_01_12_18_30_35_351756724
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo:  1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_32_03_064577339
++ mkdir 2013_01_12_18_32_03_064577339
++ cd 2013_01_12_18_32_03_064577339
++ touch out.dat
++ env
++ echo 2013_01_12_18_32_03_064577339
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo:  1'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=34
++ '[' 34 -le 32 ']'
++ export TURBO_ENABLE=0
++ TURBO_ENABLE=0
++ export FUNC_INTERCEPT=0
++ FUNC_INTERCEPT=0
++ export READ_WRITE=1
++ READ_WRITE=1
++ export READ_ONLY=0
++ READ_ONLY=0
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x38198
++ MSR_PKG_POWER_LIMIT=0x38198
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_34_18_200281331
++ mkdir 2013_01_12_18_34_18_200281331
++ cd 2013_01_12_18_34_18_200281331
++ touch out.dat
++ env
++ echo 2013_01_12_18_34_18_200281331
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_37_32_651807481
++ mkdir 2013_01_12_18_37_32_651807481
++ cd 2013_01_12_18_37_32_651807481
++ touch out.dat
++ env
++ echo 2013_01_12_18_37_32_651807481
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_40_59_383874580
++ mkdir 2013_01_12_18_40_59_383874580
++ cd 2013_01_12_18_40_59_383874580
++ touch out.dat
++ env
++ echo 2013_01_12_18_40_59_383874580
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_44_41_910662762
++ mkdir 2013_01_12_18_44_41_910662762
++ cd 2013_01_12_18_44_41_910662762
++ touch out.dat
++ env
++ echo 2013_01_12_18_44_41_910662762
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_48_48_289876705
++ mkdir 2013_01_12_18_48_48_289876705
++ cd 2013_01_12_18_48_48_289876705
++ touch out.dat
++ env
++ echo 2013_01_12_18_48_48_289876705
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_54_04_338446584
++ mkdir 2013_01_12_18_54_04_338446584
++ cd 2013_01_12_18_54_04_338446584
++ touch out.dat
++ env
++ echo 2013_01_12_18_54_04_338446584
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_18_59_57_937629770
++ mkdir 2013_01_12_18_59_57_937629770
++ cd 2013_01_12_18_59_57_937629770
++ touch out.dat
++ env
++ echo 2013_01_12_18_59_57_937629770
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=10
++ '[' 10 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_10_59_013826542
++ mkdir 2013_01_12_19_10_59_013826542
++ cd 2013_01_12_19_10_59_013826542
++ touch out.dat
++ env
++ echo 2013_01_12_19_10_59_013826542
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_13_40_674833416
++ mkdir 2013_01_12_19_13_40_674833416
++ cd 2013_01_12_19_13_40_674833416
++ touch out.dat
++ env
++ echo 2013_01_12_19_13_40_674833416
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_16_23_380962363
++ mkdir 2013_01_12_19_16_23_380962363
++ cd 2013_01_12_19_16_23_380962363
++ touch out.dat
++ env
++ echo 2013_01_12_19_16_23_380962363
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_19_24_632764431
++ mkdir 2013_01_12_19_19_24_632764431
++ cd 2013_01_12_19_19_24_632764431
++ touch out.dat
++ env
++ echo 2013_01_12_19_19_24_632764431
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_22_41_307869772
++ mkdir 2013_01_12_19_22_41_307869772
++ cd 2013_01_12_19_22_41_307869772
++ touch out.dat
++ env
++ echo 2013_01_12_19_22_41_307869772
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_26_57_577589141
++ mkdir 2013_01_12_19_26_57_577589141
++ cd 2013_01_12_19_26_57_577589141
++ touch out.dat
++ env
++ echo 2013_01_12_19_26_57_577589141
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_31_48_392375155
++ mkdir 2013_01_12_19_31_48_392375155
++ cd 2013_01_12_19_31_48_392375155
++ touch out.dat
++ env
++ echo 2013_01_12_19_31_48_392375155
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=12
++ '[' 12 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_40_42_053291453
++ mkdir 2013_01_12_19_40_42_053291453
++ cd 2013_01_12_19_40_42_053291453
++ touch out.dat
++ env
++ echo 2013_01_12_19_40_42_053291453
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 12
++ echo 'turbo:  0'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_42_57_496570359
++ mkdir 2013_01_12_19_42_57_496570359
++ cd 2013_01_12_19_42_57_496570359
++ touch out.dat
++ env
++ echo 2013_01_12_19_42_57_496570359
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 12
++ echo 'turbo:  0'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_45_20_451342664
++ mkdir 2013_01_12_19_45_20_451342664
++ cd 2013_01_12_19_45_20_451342664
++ touch out.dat
++ env
++ echo 2013_01_12_19_45_20_451342664
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 12
++ echo 'turbo:  0'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_47_58_952939297
++ mkdir 2013_01_12_19_47_58_952939297
++ cd 2013_01_12_19_47_58_952939297
++ touch out.dat
++ env
++ echo 2013_01_12_19_47_58_952939297
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 12
++ echo 'turbo:  0'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_50_42_263343854
++ mkdir 2013_01_12_19_50_42_263343854
++ cd 2013_01_12_19_50_42_263343854
++ touch out.dat
++ env
++ echo 2013_01_12_19_50_42_263343854
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 12
++ echo 'turbo:  0'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_54_16_261027950
++ mkdir 2013_01_12_19_54_16_261027950
++ cd 2013_01_12_19_54_16_261027950
++ touch out.dat
++ env
++ echo 2013_01_12_19_54_16_261027950
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 12
++ echo 'turbo:  0'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_19_58_08_750109135
++ mkdir 2013_01_12_19_58_08_750109135
++ cd 2013_01_12_19_58_08_750109135
++ touch out.dat
++ env
++ echo 2013_01_12_19_58_08_750109135
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 12
++ echo 'turbo:  0'
++ srun --nodes=12 --ntasks=12 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=14
++ '[' 14 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_05_02_332526339
++ mkdir 2013_01_12_20_05_02_332526339
++ cd 2013_01_12_20_05_02_332526339
++ touch out.dat
++ env
++ echo 2013_01_12_20_05_02_332526339
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 14
++ echo 'turbo:  0'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_07_04_053884387
++ mkdir 2013_01_12_20_07_04_053884387
++ cd 2013_01_12_20_07_04_053884387
++ touch out.dat
++ env
++ echo 2013_01_12_20_07_04_053884387
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 14
++ echo 'turbo:  0'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_09_08_138808087
++ mkdir 2013_01_12_20_09_08_138808087
++ cd 2013_01_12_20_09_08_138808087
++ touch out.dat
++ env
++ echo 2013_01_12_20_09_08_138808087
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 14
++ echo 'turbo:  0'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_11_21_749042606
++ mkdir 2013_01_12_20_11_21_749042606
++ cd 2013_01_12_20_11_21_749042606
++ touch out.dat
++ env
++ echo 2013_01_12_20_11_21_749042606
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 14
++ echo 'turbo:  0'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_13_42_556076527
++ mkdir 2013_01_12_20_13_42_556076527
++ cd 2013_01_12_20_13_42_556076527
++ touch out.dat
++ env
++ echo 2013_01_12_20_13_42_556076527
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 14
++ echo 'turbo:  0'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_16_45_605478917
++ mkdir 2013_01_12_20_16_45_605478917
++ cd 2013_01_12_20_16_45_605478917
++ touch out.dat
++ env
++ echo 2013_01_12_20_16_45_605478917
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 14
++ echo 'turbo:  0'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_20_09_359094698
++ mkdir 2013_01_12_20_20_09_359094698
++ cd 2013_01_12_20_20_09_359094698
++ touch out.dat
++ env
++ echo 2013_01_12_20_20_09_359094698
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 14
++ echo 'turbo:  0'
++ srun --nodes=14 --ntasks=14 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=16
++ '[' 16 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_26_06_037446250
++ mkdir 2013_01_12_20_26_06_037446250
++ cd 2013_01_12_20_26_06_037446250
++ touch out.dat
++ env
++ echo 2013_01_12_20_26_06_037446250
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 16
++ echo 'turbo:  0'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_27_54_019320049
++ mkdir 2013_01_12_20_27_54_019320049
++ cd 2013_01_12_20_27_54_019320049
++ touch out.dat
++ env
++ echo 2013_01_12_20_27_54_019320049
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 16
++ echo 'turbo:  0'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_29_47_967996231
++ mkdir 2013_01_12_20_29_47_967996231
++ cd 2013_01_12_20_29_47_967996231
++ touch out.dat
++ env
++ echo 2013_01_12_20_29_47_967996231
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 16
++ echo 'turbo:  0'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_31_45_638648338
++ mkdir 2013_01_12_20_31_45_638648338
++ cd 2013_01_12_20_31_45_638648338
++ touch out.dat
++ env
++ echo 2013_01_12_20_31_45_638648338
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 16
++ echo 'turbo:  0'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_33_54_484424109
++ mkdir 2013_01_12_20_33_54_484424109
++ cd 2013_01_12_20_33_54_484424109
++ touch out.dat
++ env
++ echo 2013_01_12_20_33_54_484424109
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 16
++ echo 'turbo:  0'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_36_43_861203963
++ mkdir 2013_01_12_20_36_43_861203963
++ cd 2013_01_12_20_36_43_861203963
++ touch out.dat
++ env
++ echo 2013_01_12_20_36_43_861203963
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 16
++ echo 'turbo:  0'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_39_44_882256360
++ mkdir 2013_01_12_20_39_44_882256360
++ cd 2013_01_12_20_39_44_882256360
++ touch out.dat
++ env
++ echo 2013_01_12_20_39_44_882256360
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 16
++ echo 'turbo:  0'
++ srun --nodes=16 --ntasks=16 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=18
++ '[' 18 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_45_20_964272080
++ mkdir 2013_01_12_20_45_20_964272080
++ cd 2013_01_12_20_45_20_964272080
++ touch out.dat
++ env
++ echo 2013_01_12_20_45_20_964272080
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 18
++ echo 'turbo:  0'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_47_02_670281832
++ mkdir 2013_01_12_20_47_02_670281832
++ cd 2013_01_12_20_47_02_670281832
++ touch out.dat
++ env
++ echo 2013_01_12_20_47_02_670281832
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 18
++ echo 'turbo:  0'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_48_44_365339616
++ mkdir 2013_01_12_20_48_44_365339616
++ cd 2013_01_12_20_48_44_365339616
++ touch out.dat
++ env
++ echo 2013_01_12_20_48_44_365339616
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 18
++ echo 'turbo:  0'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_50_31_833086415
++ mkdir 2013_01_12_20_50_31_833086415
++ cd 2013_01_12_20_50_31_833086415
++ touch out.dat
++ env
++ echo 2013_01_12_20_50_31_833086415
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 18
++ echo 'turbo:  0'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_52_28_513085457
++ mkdir 2013_01_12_20_52_28_513085457
++ cd 2013_01_12_20_52_28_513085457
++ touch out.dat
++ env
++ echo 2013_01_12_20_52_28_513085457
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 18
++ echo 'turbo:  0'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_55_02_898843624
++ mkdir 2013_01_12_20_55_02_898843624
++ cd 2013_01_12_20_55_02_898843624
++ touch out.dat
++ env
++ echo 2013_01_12_20_55_02_898843624
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 18
++ echo 'turbo:  0'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_20_57_46_438848822
++ mkdir 2013_01_12_20_57_46_438848822
++ cd 2013_01_12_20_57_46_438848822
++ touch out.dat
++ env
++ echo 2013_01_12_20_57_46_438848822
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 18
++ echo 'turbo:  0'
++ srun --nodes=18 --ntasks=18 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=20
++ '[' 20 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_03_01_844437660
++ mkdir 2013_01_12_21_03_01_844437660
++ cd 2013_01_12_21_03_01_844437660
++ touch out.dat
++ env
++ echo 2013_01_12_21_03_01_844437660
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 20
++ echo 'turbo:  0'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_04_34_801573069
++ mkdir 2013_01_12_21_04_34_801573069
++ cd 2013_01_12_21_04_34_801573069
++ touch out.dat
++ env
++ echo 2013_01_12_21_04_34_801573069
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 20
++ echo 'turbo:  0'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_06_09_534869739
++ mkdir 2013_01_12_21_06_09_534869739
++ cd 2013_01_12_21_06_09_534869739
++ touch out.dat
++ env
++ echo 2013_01_12_21_06_09_534869739
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 20
++ echo 'turbo:  0'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_07_51_999861830
++ mkdir 2013_01_12_21_07_51_999861830
++ cd 2013_01_12_21_07_51_999861830
++ touch out.dat
++ env
++ echo 2013_01_12_21_07_51_999861830
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 20
++ echo 'turbo:  0'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_09_38_994590642
++ mkdir 2013_01_12_21_09_38_994590642
++ cd 2013_01_12_21_09_38_994590642
++ touch out.dat
++ env
++ echo 2013_01_12_21_09_38_994590642
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 20
++ echo 'turbo:  0'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_11_56_613565939
++ mkdir 2013_01_12_21_11_56_613565939
++ cd 2013_01_12_21_11_56_613565939
++ touch out.dat
++ env
++ echo 2013_01_12_21_11_56_613565939
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 20
++ echo 'turbo:  0'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_14_25_817007177
++ mkdir 2013_01_12_21_14_25_817007177
++ cd 2013_01_12_21_14_25_817007177
++ touch out.dat
++ env
++ echo 2013_01_12_21_14_25_817007177
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 20
++ echo 'turbo:  0'
++ srun --nodes=20 --ntasks=20 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=22
++ '[' 22 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_18_57_610521681
++ mkdir 2013_01_12_21_18_57_610521681
++ cd 2013_01_12_21_18_57_610521681
++ touch out.dat
++ env
++ echo 2013_01_12_21_18_57_610521681
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 22
++ echo 'turbo:  0'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_20_23_953210508
++ mkdir 2013_01_12_21_20_23_953210508
++ cd 2013_01_12_21_20_23_953210508
++ touch out.dat
++ env
++ echo 2013_01_12_21_20_23_953210508
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 22
++ echo 'turbo:  0'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_21_53_801041949
++ mkdir 2013_01_12_21_21_53_801041949
++ cd 2013_01_12_21_21_53_801041949
++ touch out.dat
++ env
++ echo 2013_01_12_21_21_53_801041949
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 22
++ echo 'turbo:  0'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_23_31_294619381
++ mkdir 2013_01_12_21_23_31_294619381
++ cd 2013_01_12_21_23_31_294619381
++ touch out.dat
++ env
++ echo 2013_01_12_21_23_31_294619381
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 22
++ echo 'turbo:  0'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_25_10_296043484
++ mkdir 2013_01_12_21_25_10_296043484
++ cd 2013_01_12_21_25_10_296043484
++ touch out.dat
++ env
++ echo 2013_01_12_21_25_10_296043484
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 22
++ echo 'turbo:  0'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_27_18_343030699
++ mkdir 2013_01_12_21_27_18_343030699
++ cd 2013_01_12_21_27_18_343030699
++ touch out.dat
++ env
++ echo 2013_01_12_21_27_18_343030699
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 22
++ echo 'turbo:  0'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_29_37_020781510
++ mkdir 2013_01_12_21_29_37_020781510
++ cd 2013_01_12_21_29_37_020781510
++ touch out.dat
++ env
++ echo 2013_01_12_21_29_37_020781510
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 22
++ echo 'turbo:  0'
++ srun --nodes=22 --ntasks=22 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=24
++ '[' 24 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_33_47_537547418
++ mkdir 2013_01_12_21_33_47_537547418
++ cd 2013_01_12_21_33_47_537547418
++ touch out.dat
++ env
++ echo 2013_01_12_21_33_47_537547418
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 24
++ echo 'turbo:  0'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_35_09_764962048
++ mkdir 2013_01_12_21_35_09_764962048
++ cd 2013_01_12_21_35_09_764962048
++ touch out.dat
++ env
++ echo 2013_01_12_21_35_09_764962048
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 24
++ echo 'turbo:  0'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_36_35_567322461
++ mkdir 2013_01_12_21_36_35_567322461
++ cd 2013_01_12_21_36_35_567322461
++ touch out.dat
++ env
++ echo 2013_01_12_21_36_35_567322461
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 24
++ echo 'turbo:  0'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_38_02_681357806
++ mkdir 2013_01_12_21_38_02_681357806
++ cd 2013_01_12_21_38_02_681357806
++ touch out.dat
++ env
++ echo 2013_01_12_21_38_02_681357806
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 24
++ echo 'turbo:  0'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_39_33_938637992
++ mkdir 2013_01_12_21_39_33_938637992
++ cd 2013_01_12_21_39_33_938637992
++ touch out.dat
++ env
++ echo 2013_01_12_21_39_33_938637992
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 24
++ echo 'turbo:  0'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_41_29_324333560
++ mkdir 2013_01_12_21_41_29_324333560
++ cd 2013_01_12_21_41_29_324333560
++ touch out.dat
++ env
++ echo 2013_01_12_21_41_29_324333560
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 24
++ echo 'turbo:  0'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_43_38_342379409
++ mkdir 2013_01_12_21_43_38_342379409
++ cd 2013_01_12_21_43_38_342379409
++ touch out.dat
++ env
++ echo 2013_01_12_21_43_38_342379409
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 24
++ echo 'turbo:  0'
++ srun --nodes=24 --ntasks=24 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=26
++ '[' 26 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_47_33_967074520
++ mkdir 2013_01_12_21_47_33_967074520
++ cd 2013_01_12_21_47_33_967074520
++ touch out.dat
++ env
++ echo 2013_01_12_21_47_33_967074520
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 26
++ echo 'turbo:  0'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_48_53_726763261
++ mkdir 2013_01_12_21_48_53_726763261
++ cd 2013_01_12_21_48_53_726763261
++ touch out.dat
++ env
++ echo 2013_01_12_21_48_53_726763261
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 26
++ echo 'turbo:  0'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_50_13_579691501
++ mkdir 2013_01_12_21_50_13_579691501
++ cd 2013_01_12_21_50_13_579691501
++ touch out.dat
++ env
++ echo 2013_01_12_21_50_13_579691501
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 26
++ echo 'turbo:  0'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_51_34_885321101
++ mkdir 2013_01_12_21_51_34_885321101
++ cd 2013_01_12_21_51_34_885321101
++ touch out.dat
++ env
++ echo 2013_01_12_21_51_34_885321101
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 26
++ echo 'turbo:  0'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_53_01_880511108
++ mkdir 2013_01_12_21_53_01_880511108
++ cd 2013_01_12_21_53_01_880511108
++ touch out.dat
++ env
++ echo 2013_01_12_21_53_01_880511108
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 26
++ echo 'turbo:  0'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_54_54_240331280
++ mkdir 2013_01_12_21_54_54_240331280
++ cd 2013_01_12_21_54_54_240331280
++ touch out.dat
++ env
++ echo 2013_01_12_21_54_54_240331280
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 26
++ echo 'turbo:  0'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_21_56_53_681683077
++ mkdir 2013_01_12_21_56_53_681683077
++ cd 2013_01_12_21_56_53_681683077
++ touch out.dat
++ env
++ echo 2013_01_12_21_56_53_681683077
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 26
++ echo 'turbo:  0'
++ srun --nodes=26 --ntasks=26 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=28
++ '[' 28 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_00_28_959728191
++ mkdir 2013_01_12_22_00_28_959728191
++ cd 2013_01_12_22_00_28_959728191
++ touch out.dat
++ env
++ echo 2013_01_12_22_00_28_959728191
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 28
++ echo 'turbo:  0'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_01_44_607572257
++ mkdir 2013_01_12_22_01_44_607572257
++ cd 2013_01_12_22_01_44_607572257
++ touch out.dat
++ env
++ echo 2013_01_12_22_01_44_607572257
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 28
++ echo 'turbo:  0'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_03_00_115347877
++ mkdir 2013_01_12_22_03_00_115347877
++ cd 2013_01_12_22_03_00_115347877
++ touch out.dat
++ env
++ echo 2013_01_12_22_03_00_115347877
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 28
++ echo 'turbo:  0'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_04_18_236809873
++ mkdir 2013_01_12_22_04_18_236809873
++ cd 2013_01_12_22_04_18_236809873
++ touch out.dat
++ env
++ echo 2013_01_12_22_04_18_236809873
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 28
++ echo 'turbo:  0'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_05_40_256488734
++ mkdir 2013_01_12_22_05_40_256488734
++ cd 2013_01_12_22_05_40_256488734
++ touch out.dat
++ env
++ echo 2013_01_12_22_05_40_256488734
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 28
++ echo 'turbo:  0'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_07_26_606251736
++ mkdir 2013_01_12_22_07_26_606251736
++ cd 2013_01_12_22_07_26_606251736
++ touch out.dat
++ env
++ echo 2013_01_12_22_07_26_606251736
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 28
++ echo 'turbo:  0'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_09_19_080339055
++ mkdir 2013_01_12_22_09_19_080339055
++ cd 2013_01_12_22_09_19_080339055
++ touch out.dat
++ env
++ echo 2013_01_12_22_09_19_080339055
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 28
++ echo 'turbo:  0'
++ srun --nodes=28 --ntasks=28 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=30
++ '[' 30 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_12_45_034597589
++ mkdir 2013_01_12_22_12_45_034597589
++ cd 2013_01_12_22_12_45_034597589
++ touch out.dat
++ env
++ echo 2013_01_12_22_12_45_034597589
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 30
++ echo 'turbo:  0'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_13_56_125729339
++ mkdir 2013_01_12_22_13_56_125729339
++ cd 2013_01_12_22_13_56_125729339
++ touch out.dat
++ env
++ echo 2013_01_12_22_13_56_125729339
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 30
++ echo 'turbo:  0'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_15_06_573578572
++ mkdir 2013_01_12_22_15_06_573578572
++ cd 2013_01_12_22_15_06_573578572
++ touch out.dat
++ env
++ echo 2013_01_12_22_15_06_573578572
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 30
++ echo 'turbo:  0'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_16_20_924321546
++ mkdir 2013_01_12_22_16_20_924321546
++ cd 2013_01_12_22_16_20_924321546
++ touch out.dat
++ env
++ echo 2013_01_12_22_16_20_924321546
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 30
++ echo 'turbo:  0'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_17_40_956098534
++ mkdir 2013_01_12_22_17_40_956098534
++ cd 2013_01_12_22_17_40_956098534
++ touch out.dat
++ env
++ echo 2013_01_12_22_17_40_956098534
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 30
++ echo 'turbo:  0'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_19_18_643286000
++ mkdir 2013_01_12_22_19_18_643286000
++ cd 2013_01_12_22_19_18_643286000
++ touch out.dat
++ env
++ echo 2013_01_12_22_19_18_643286000
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 30
++ echo 'turbo:  0'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_21_03_977206689
++ mkdir 2013_01_12_22_21_03_977206689
++ cd 2013_01_12_22_21_03_977206689
++ touch out.dat
++ env
++ echo 2013_01_12_22_21_03_977206689
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 30
++ echo 'turbo:  0'
++ srun --nodes=30 --ntasks=30 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=32
++ '[' 32 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_24_14_833417359
++ mkdir 2013_01_12_22_24_14_833417359
++ cd 2013_01_12_22_24_14_833417359
++ touch out.dat
++ env
++ echo 2013_01_12_22_24_14_833417359
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 32
++ echo 'turbo:  0'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_25_23_916944953
++ mkdir 2013_01_12_22_25_23_916944953
++ cd 2013_01_12_22_25_23_916944953
++ touch out.dat
++ env
++ echo 2013_01_12_22_25_23_916944953
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 32
++ echo 'turbo:  0'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_26_31_577875559
++ mkdir 2013_01_12_22_26_31_577875559
++ cd 2013_01_12_22_26_31_577875559
++ touch out.dat
++ env
++ echo 2013_01_12_22_26_31_577875559
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 32
++ echo 'turbo:  0'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_27_43_215480779
++ mkdir 2013_01_12_22_27_43_215480779
++ cd 2013_01_12_22_27_43_215480779
++ touch out.dat
++ env
++ echo 2013_01_12_22_27_43_215480779
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 32
++ echo 'turbo:  0'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_28_59_097659965
++ mkdir 2013_01_12_22_28_59_097659965
++ cd 2013_01_12_22_28_59_097659965
++ touch out.dat
++ env
++ echo 2013_01_12_22_28_59_097659965
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 32
++ echo 'turbo:  0'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_30_32_934757796
++ mkdir 2013_01_12_22_30_32_934757796
++ cd 2013_01_12_22_30_32_934757796
++ touch out.dat
++ env
++ echo 2013_01_12_22_30_32_934757796
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 32
++ echo 'turbo:  0'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_32_13_446084657
++ mkdir 2013_01_12_22_32_13_446084657
++ cd 2013_01_12_22_32_13_446084657
++ touch out.dat
++ env
++ echo 2013_01_12_22_32_13_446084657
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 32
++ echo 'turbo:  0'
++ srun --nodes=32 --ntasks=32 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=34
++ '[' 34 -le 32 ']'
++ for pkg in 0x38198 0x038208 0x038280 0x0382f8
++ i=16
++ j=8
++ export MSR_PKG_POWER_LIMIT=0x038208
++ MSR_PKG_POWER_LIMIT=0x038208
++ '[' 8 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_35_02_742455924
++ mkdir 2013_01_12_22_35_02_742455924
++ cd 2013_01_12_22_35_02_742455924
++ touch out.dat
++ env
++ echo 2013_01_12_22_35_02_742455924
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_37_53_377290511
++ mkdir 2013_01_12_22_37_53_377290511
++ cd 2013_01_12_22_37_53_377290511
++ touch out.dat
++ env
++ echo 2013_01_12_22_37_53_377290511
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_40_48_962475770
++ mkdir 2013_01_12_22_40_48_962475770
++ cd 2013_01_12_22_40_48_962475770
++ touch out.dat
++ env
++ echo 2013_01_12_22_40_48_962475770
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_44_02_085361675
++ mkdir 2013_01_12_22_44_02_085361675
++ cd 2013_01_12_22_44_02_085361675
++ touch out.dat
++ env
++ echo 2013_01_12_22_44_02_085361675
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=8
++ '[' 8 -ge 4 ']'
++ export OMP_NUM_THREADS=8
++ OMP_NUM_THREADS=8
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_47_49_568838505
++ mkdir 2013_01_12_22_47_49_568838505
++ cd 2013_01_12_22_47_49_568838505
++ touch out.dat
++ env
++ echo 2013_01_12_22_47_49_568838505
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 8'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=6
++ '[' 6 -ge 4 ']'
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_53_08_263464388
++ mkdir 2013_01_12_22_53_08_263464388
++ cd 2013_01_12_22_53_08_263464388
++ touch out.dat
++ env
++ echo 2013_01_12_22_53_08_263464388
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 6'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=4
++ '[' 4 -ge 4 ']'
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_22_59_06_290765529
++ mkdir 2013_01_12_22_59_06_290765529
++ cd 2013_01_12_22_59_06_290765529
++ touch out.dat
++ env
++ echo 2013_01_12_22_59_06_290765529
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 4'
++ echo 'nodes: ' 8
++ echo 'turbo:  0'
++ srun --nodes=8 --ntasks=8 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=2
++ '[' 2 -ge 4 ']'
++ j=10
++ '[' 10 -le 32 ']'
++ i=16
++ '[' 16 -ge 4 ']'
++ export OMP_NUM_THREADS=16
++ OMP_NUM_THREADS=16
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_23_10_05_027914716
++ mkdir 2013_01_12_23_10_05_027914716
++ cd 2013_01_12_23_10_05_027914716
++ touch out.dat
++ env
++ echo 2013_01_12_23_10_05_027914716
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 16'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=14
++ '[' 14 -ge 4 ']'
++ export OMP_NUM_THREADS=14
++ OMP_NUM_THREADS=14
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_23_12_23_815386091
++ mkdir 2013_01_12_23_12_23_815386091
++ cd 2013_01_12_23_12_23_815386091
++ touch out.dat
++ env
++ echo 2013_01_12_23_12_23_815386091
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 14'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=12
++ '[' 12 -ge 4 ']'
++ export OMP_NUM_THREADS=12
++ OMP_NUM_THREADS=12
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_23_14_48_043802533
++ mkdir 2013_01_12_23_14_48_043802533
++ cd 2013_01_12_23_14_48_043802533
++ touch out.dat
++ env
++ echo 2013_01_12_23_14_48_043802533
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 12'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
++ cd ../
++ i=10
++ '[' 10 -ge 4 ']'
++ export OMP_NUM_THREADS=10
++ OMP_NUM_THREADS=10
++ export KMP_AFFINITY=scatter
++ KMP_AFFINITY=scatter
+++ date +%Y_%m_%d_%H_%M_%S_%N
++ name=2013_01_12_23_17_31_949778384
++ mkdir 2013_01_12_23_17_31_949778384
++ cd 2013_01_12_23_17_31_949778384
++ touch out.dat
++ env
++ echo 2013_01_12_23_17_31_949778384
++ uname -a
++ srun --nodes=1 --ntasks=1 -ppbatch cat /proc/cpuinfo
++ grep MHz
++ srun --nodes=1 --ntasks=1 -o host_info hostname
++ echo 'threads/node: 10'
++ echo 'nodes: ' 10
++ echo 'turbo:  0'
++ srun --nodes=10 --ntasks=10 -o out.dat -e f.err ../bmark3
+slurmd[rzmerl19]: *** JOB 664525 CANCELLED AT 2013-01-12T23:18:06 DUE TO TIME LIMIT ***

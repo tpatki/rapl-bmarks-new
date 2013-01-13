@@ -1,0 +1,164 @@
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+Each chunk is: 128
+Iterations: 2
+Nodes: 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Threads: 12
+
+ Rank 8 is done initializing
+Time is: 63.042926 secs
+ Rank 25 is done initializing
+Time is: 63.017796 secs
+ Rank 20 is done initializing
+Time is: 63.022984 secs
+ Rank 23 is done initializing
+Time is: 63.039466 secs
+ Rank 11 is done initializing
+Time is: 63.039530 secs
+ Rank 26 is done initializing
+Time is: 63.047510 secs
+ Rank 22 is done initializing
+Time is: 63.039323 secs
+ Rank 17 is done initializing
+Time is: 63.025239 secs
+ Rank 9 is done initializing
+Time is: 63.040069 secs
+ Rank 15 is done initializing
+Time is: 63.025399 secs
+ Rank 16 is done initializing
+Time is: 63.018001 secs
+ Rank 24 is done initializing
+Time is: 63.010993 secs
+ Rank 2 is done initializing
+Time is: 63.010818 secs
+ Rank 21 is done initializing
+Time is: 63.016209 secs
+ Rank 10 is done initializing
+Time is: 63.032967 secs
+ Rank 7 is done initializing
+Time is: 63.021706 secs
+ Rank 5 is done initializing
+Time is: 63.019845 secs
+ Rank 14 is done initializing
+Time is: 63.037258 secs
+ Rank 29 is done initializing
+Time is: 63.034920 secs
+ Rank 27 is done initializing
+Time is: 63.026795 secs
+ Rank 18 is done initializing
+Time is: 63.033646 secs
+ Rank 3 is done initializing
+Time is: 63.042492 secs
+ Rank 6 is done initializing
+Time is: 63.003544 secs
+ Rank 0 is done initializing
+Time is: 62.997734 secs
+ Rank 31 is done initializing
+Time is: 63.042619 secs
+ Rank 13 is done initializing
+Time is: 63.014671 secs
+ Rank 28 is done initializing
+Time is: 63.012813 secs
+ Rank 19 is done initializing
+Time is: 62.995029 secs
+ Rank 12 is done initializing
+Time is: 63.009625 secs
+ Rank 4 is done initializing
+Time is: 63.008794 secs
+ Rank 30 is done initializing
+Time is: 62.983161 secs
+ Rank 1 is done initializing
+Time is: 63.011933 secs
