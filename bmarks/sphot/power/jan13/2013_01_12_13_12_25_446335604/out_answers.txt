@@ -1,0 +1,18 @@
+
+
+Total tracks          =        33080499180.0
+
+
+progTime              =                39.93 sec
+
+
+Sequoia Benchmark Version 1.0
+
+
+Total tracks per sec. =         828508125.56
+
+
+avg. esc. prob.       =             0.253668
+
+
+std dev               =             0.048262
