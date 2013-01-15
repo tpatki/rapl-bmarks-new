@@ -1,0 +1,84 @@
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+In READ-ONLY mode.
+
+Each chunk is: 256
+Iterations: 2
+Nodes: 16
+
+
+
+
+
+
+
+
+
+Threads: 16
+
+
+
+
+
+
+ Rank 1 is done initializing
+Time is: 64.386515 secs
+ Rank 3 is done initializing
+Time is: 64.665849 secs
+ Rank 6 is done initializing
+Time is: 65.085676 secs
+ Rank 9 is done initializing
+Time is: 65.618484 secs
+ Rank 14 is done initializing
+Time is: 65.656060 secs
+ Rank 11 is done initializing
+Time is: 65.811925 secs
+ Rank 12 is done initializing
+Time is: 66.175156 secs
+ Rank 5 is done initializing
+Time is: 66.387968 secs
+ Rank 4 is done initializing
+Time is: 66.425609 secs
+ Rank 2 is done initializing
+Time is: 67.229301 secs
+ Rank 13 is done initializing
+Time is: 67.330661 secs
+ Rank 7 is done initializing
+Time is: 67.553294 secs
+ Rank 8 is done initializing
+Time is: 67.833625 secs
+ Rank 10 is done initializing
+Time is: 67.996993 secs
+ Rank 15 is done initializing
+Time is: 68.180150 secs
+ Rank 0 is done initializing
+Time is: 69.532995 secs
