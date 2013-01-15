@@ -20,8 +20,8 @@ make clean && make -j8 rapl-icc
 #cd lulesh
 #make clean && make
 
-cd ../../../sphot
-make clean && make
+#cd ../../../sphot
+#make clean && make
 
 #cd ../NAS-MZ
 #make clean 
@@ -36,8 +36,8 @@ make clean && make
 #cd ../no-scale-cpu-comm
 #make clean && make
 
-#cd ../synthetic/no-scale-mem-comm
-#make clean && make
+cd ../../../synthetic/no-scale-mem-comm
+make clean && make
 
-#cd ../scale-mem
-#make clean && make
+cd ../scale-mem
+make clean && make

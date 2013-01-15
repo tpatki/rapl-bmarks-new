@@ -20,8 +20,8 @@
 #cd ../../../lulesh-oct30
 #msub rapl-runs-small.msub
 
-cd sphot/power
-msub rapl-runs-small.msub
+#cd sphot/power
+#msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 
@@ -35,13 +35,13 @@ msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 
-#cd ../../synthetic/scale-mem
-#msub rapl-runs-small.msub
+cd synthetic/scale-mem
+msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 
-#cd ../../synthetic/no-scale-mem-comm
-#msub rapl-runs-small.msub
+cd ../no-scale-mem-comm
+msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 
