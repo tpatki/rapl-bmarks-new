@@ -168,7 +168,7 @@ int main(int argc, char *argv[])
   double t1 = mytimer();   // Initialize it (if needed)
   int niters = 0;
   double normr = 0.0;
-  int max_iter = 150;
+  int max_iter = 850;
   double tolerance = 0.0; // Set tolerance to zero to make all runs do max_iter iterations
   ierr = HPCCG( A, b, x, max_iter, tolerance, niters, normr, times);
 
