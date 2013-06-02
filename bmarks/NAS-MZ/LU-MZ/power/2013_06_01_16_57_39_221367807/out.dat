@@ -1,0 +1,127 @@
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+In READ-WRITE mode.
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - LU-MZ MPI+OpenMP Benchmark
+
+ Number of zones:  32 x  32
+ Iterations: ***    dt:   2.000000
+ Number of active processes:     6
+
+ Use the default load factors with threads
+ Total number of threads:     84  ( 14.0 threads/process)
+
+ Calculated speedup =     83.84
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Time step  420
+ Time step  440
+ Time step  460
+ Time step  480
+ Time step  500
+ Time step  520
+ Time step  540
+ Time step  560
+ Time step  580
+ Time step  600
+ Time step  620
+ Time step  640
+ Time step  660
+ Time step  680
+ Time step  700
+ Time step  720
+ Time step  740
+ Time step  760
+ Time step  780
+ Time step  800
+ Time step  820
+ Time step  840
+ Time step  860
+ Time step  880
+ Time step  900
+ Time step  920
+ Time step  940
+ Time step  960
+ Time step  980
+ Time step 1000
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ ITMAX does not match the reference value of   250
+ Comparison of RMS-norms of residual
+ FAILURE:  1   0.1314852517133E-05 0.4108743427233E+05 0.9999999999680E+00
+ FAILURE:  2   0.3097795537001E-06 0.3439004802235E+04 0.9999999999099E+00
+ FAILURE:  3   0.3398809269069E-06 0.9961331392486E+04 0.9999999999659E+00
+ FAILURE:  4   0.1271155459474E-06 0.8321426758084E+04 0.9999999999847E+00
+ FAILURE:  5   0.1370172999174E-05 0.7463792419218E+05 0.9999999999816E+00
+ Comparison of RMS-norms of solution error
+ FAILURE:  1   0.1721606125263E+04 0.3429276307955E+04 0.4979680927813E+00
+ FAILURE:  2   0.6466953733589E+03 0.2336680861825E+03 0.1767581075893E+01
+ FAILURE:  3   0.7622611150126E+03 0.8216363109621E+03 0.7226457151096E-01
+ FAILURE:  4   0.6827728270486E+03 0.7143809828225E+03 0.4424551679555E-01
+ FAILURE:  5   0.1204211431921E+04 0.7057470798773E+04 0.8293706816143E+00
+ Comparison of surface integral
+ FAILURE:      0.8937938563789E+04 0.1125826349653E+05 0.2060997180832E+00
+ Verification failed
+
+
+ LU-MZ Benchmark Completed.
+ Class           =                        C
+ Size            =            480x  320x 28
+ Iterations      =                     1000
+ Time in seconds =                   145.15
+ Total processes =                        6
+ Total threads   =                       84
+ Mop/s total     =                 39421.15
+ Mop/s/thread    =                   469.30
+ Operation type  =           floating point
+ Verification    =             UNSUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              01 Jun 2013
+
+ Compile options:
+    F77          = mpif77
+    FLINK        = $(F77)
+    F_LIB        = -Xlinker -rpath -Xlinker $(PATH_LIBMSR) -L$...
+    F_INC        = (none)
+    FFLAGS       = -O3 -openmp -fPIC -DPIC 
+    FLINKFLAGS   = -O3  -openmp 
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

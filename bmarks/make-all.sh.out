@@ -1,4 +1,4 @@
-/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib
+/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib
 rm -f *.o libmsr.so
 gcc -fPIC -Wall -DARCH_SANDY_BRIDGE -DPKG_PERF_STATUS_AVAILABLE  -DARCH_062D -O2    -c -o msr_core.o msr_core.c
 gcc -fPIC -Wall -DARCH_SANDY_BRIDGE -DPKG_PERF_STATUS_AVAILABLE  -DARCH_062D -O2    -c -o blr_util.o blr_util.c
@@ -13,76 +13,44 @@ rm -f *.o rapl.c*
 mkdir -p ../lib
 ./wrap.py -f -g -o rapl.c rapl.w
 mpicc -diag-disable 177 -diag-disable 279 -diag-disable 181 -DPIC -fPIC -I.. -DARCH_SANDY_BRIDGE -DARCH_062D -c rapl.c -o rapl.o
-gcc: 177: No such file or directory
-gcc: 279: No such file or directory
-gcc: 181: No such file or directory
-cc1: warning: unrecognized gcc debugging option: i
-cc1: warning: unrecognized gcc debugging option: g
-cc1: warning: unrecognized gcc debugging option: -
-cc1: warning: unrecognized gcc debugging option: d
-cc1: warning: unrecognized gcc debugging option: i
-cc1: warning: unrecognized gcc debugging option: s
-cc1: warning: unrecognized gcc debugging option: b
-cc1: warning: unrecognized gcc debugging option: l
-cc1: warning: unrecognized gcc debugging option: e
-cc1: warning: unrecognized gcc debugging option: i
-cc1: warning: unrecognized gcc debugging option: g
-cc1: warning: unrecognized gcc debugging option: -
-cc1: warning: unrecognized gcc debugging option: d
-cc1: warning: unrecognized gcc debugging option: i
-cc1: warning: unrecognized gcc debugging option: s
-cc1: warning: unrecognized gcc debugging option: b
-cc1: warning: unrecognized gcc debugging option: l
-cc1: warning: unrecognized gcc debugging option: e
-cc1: warning: unrecognized gcc debugging option: i
-cc1: warning: unrecognized gcc debugging option: g
-cc1: warning: unrecognized gcc debugging option: -
-cc1: warning: unrecognized gcc debugging option: d
-cc1: warning: unrecognized gcc debugging option: i
-cc1: warning: unrecognized gcc debugging option: s
-cc1: warning: unrecognized gcc debugging option: b
-cc1: warning: unrecognized gcc debugging option: l
-cc1: warning: unrecognized gcc debugging option: e
-make: *** [rapl-icc] Error 1
+mpicc -shared -Wl,-soname,librapl.so -o ../lib/librapl.so ../msr_core.o ../msr_rapl.o ../msr_turbo.o ../blr_util.o ../msr_opt.o ../msr_clocks.o rapl.o ../msr_signal.o
 rm -f sphot bin/*.o
 make -C src -f Makefile.src
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/sphot/src'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/sphot/src'
 mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/allocdyn.o  allocdyn.f 
-gfortran: 177: No such file or directory
-gfortran: 279: No such file or directory
-gfortran: 181: No such file or directory
-gfortran: unrecognized option '-nocheck'
-gfortran: unrecognized option '-traceback'
-f951: warning: unrecognized gcc debugging option: i
-f951: warning: unrecognized gcc debugging option: g
-f951: warning: unrecognized gcc debugging option: -
-f951: warning: unrecognized gcc debugging option: d
-f951: warning: unrecognized gcc debugging option: i
-f951: warning: unrecognized gcc debugging option: s
-f951: warning: unrecognized gcc debugging option: b
-f951: warning: unrecognized gcc debugging option: l
-f951: warning: unrecognized gcc debugging option: e
-f951: warning: unrecognized gcc debugging option: i
-f951: warning: unrecognized gcc debugging option: g
-f951: warning: unrecognized gcc debugging option: -
-f951: warning: unrecognized gcc debugging option: d
-f951: warning: unrecognized gcc debugging option: i
-f951: warning: unrecognized gcc debugging option: s
-f951: warning: unrecognized gcc debugging option: b
-f951: warning: unrecognized gcc debugging option: l
-f951: warning: unrecognized gcc debugging option: e
-f951: warning: unrecognized gcc debugging option: i
-f951: warning: unrecognized gcc debugging option: g
-f951: warning: unrecognized gcc debugging option: -
-f951: warning: unrecognized gcc debugging option: d
-f951: warning: unrecognized gcc debugging option: i
-f951: warning: unrecognized gcc debugging option: s
-f951: warning: unrecognized gcc debugging option: b
-f951: warning: unrecognized gcc debugging option: l
-f951: warning: unrecognized gcc debugging option: e
-make[1]: *** [../bin/allocdyn.o] Error 1
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/sphot/src'
-make: *** [sources] Error 2
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/copyglob.o  copyglob.f 
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/copypriv.o copypriv.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/copyseed.o copyseed.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/execute.o execute.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/genmesh.o genmesh.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/genxsec.o genxsec.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/interp.o interp.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/iranfeven.o iranfeven.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/iranfodd.o iranfodd.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/plnkut.o plnkut.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/pranf.o pranf.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/ranf.o ranf.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/ranfatok.o ranfatok.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/ranfk.o ranfk.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/ranfkbinary.o ranfkbinary.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/ranfmodmult.o ranfmodmult.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/rans.o rans.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/rdinput.o rdinput.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/rdopac.o rdopac.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/second.o second.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/seedranf.o seedranf.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/sphot.o sphot.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/thom.o thom.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/writeout.o writeout.f
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/wroutput.o wroutput.f
+wroutput.f(80): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 259  format(4x,i4,15x,i6,13x,e10.4)
+-------------------------------^
+mpif77 -fPIC -DPIC -nocheck -g -traceback -openmp -c -I../includes -diag-disable 177 -diag-disable 279 -diag-disable 181 -o ../bin/zonevols.o zonevols.f
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/sphot/src'
+cd bin; \
+	mpif77 -g -openmp -traceback -diag-disable 177 -diag-disable 279 -diag-disable 181 -nocheck *.o -fPIC -DPIC -o sphot -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl ; \
+	mv sphot ../.
 rm -f core
 rm -f *~ */core */*~ */*.o */npbparams.h */*.obj */*.exe
 rm -f sys/setparams sys/makesuite sys/setparams.h
@@ -93,12 +61,12 @@ rm -f sys/setparams sys/makesuite sys/setparams.h
    ===========================================
 
 cd BT-MZ; make CLASS=C NPROCS=2 VERSION=
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 cc  -o setparams setparams.c -lm
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 ../sys/setparams bt-mz 2 C
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
 mpif77 -c  -O3 -openmp -fPIC -DPIC  bt.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  initialize.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  exact_solution.f
@@ -118,31 +86,9 @@ mpif77 -c  -O3 -openmp -fPIC -DPIC  verify.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  mpi_setup.f
 cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  print_results.f
 cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  timers.f
-mpif77 -O3  -openmp  -o ../bin/bt-mz.C.2 bt.o  initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o  rhs.o zone_setup.o x_solve.o y_solve.o  exch_qbc.o solve_subs.o z_solve.o add.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
-gfortran: bt.o: No such file or directory
-gfortran: initialize.o: No such file or directory
-gfortran: exact_solution.o: No such file or directory
-gfortran: exact_rhs.o: No such file or directory
-gfortran: set_constants.o: No such file or directory
-gfortran: adi.o: No such file or directory
-gfortran: rhs.o: No such file or directory
-gfortran: zone_setup.o: No such file or directory
-gfortran: x_solve.o: No such file or directory
-gfortran: y_solve.o: No such file or directory
-gfortran: exch_qbc.o: No such file or directory
-gfortran: solve_subs.o: No such file or directory
-gfortran: z_solve.o: No such file or directory
-gfortran: add.o: No such file or directory
-gfortran: error.o: No such file or directory
-gfortran: verify.o: No such file or directory
-gfortran: mpi_setup.o: No such file or directory
-gfortran: ../common/print_results.o: No such file or directory
-gfortran: ../common/timers.o: No such file or directory
-make[2]: *** [exec] Error 1
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
-make[1]: *** [../bin/bt-mz.C.2] Error 2
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
-make: *** [bt-mz] Error 2
+mpif77 -O3  -openmp  -o ../bin/bt-mz.C.2 bt.o  initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o  rhs.o zone_setup.o x_solve.o y_solve.o  exch_qbc.o solve_subs.o z_solve.o add.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
    ===========================================
    =      NAS PARALLEL BENCHMARKS 3.3        =
    =      MPI+OpenMP Multi-Zone Versions     =
@@ -150,12 +96,12 @@ make: *** [bt-mz] Error 2
    ===========================================
 
 cd BT-MZ; make CLASS=C NPROCS=4 VERSION=
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 make[2]: Nothing to be done for `all'.
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 ../sys/setparams bt-mz 4 C
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
 mpif77 -c  -O3 -openmp -fPIC -DPIC  bt.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  initialize.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  exact_solution.f
@@ -173,33 +119,9 @@ mpif77 -c  -O3 -openmp -fPIC -DPIC  add.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  error.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  verify.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  mpi_setup.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  print_results.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  timers.f
-mpif77 -O3  -openmp  -o ../bin/bt-mz.C.4 bt.o  initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o  rhs.o zone_setup.o x_solve.o y_solve.o  exch_qbc.o solve_subs.o z_solve.o add.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
-gfortran: bt.o: No such file or directory
-gfortran: initialize.o: No such file or directory
-gfortran: exact_solution.o: No such file or directory
-gfortran: exact_rhs.o: No such file or directory
-gfortran: set_constants.o: No such file or directory
-gfortran: adi.o: No such file or directory
-gfortran: rhs.o: No such file or directory
-gfortran: zone_setup.o: No such file or directory
-gfortran: x_solve.o: No such file or directory
-gfortran: y_solve.o: No such file or directory
-gfortran: exch_qbc.o: No such file or directory
-gfortran: solve_subs.o: No such file or directory
-gfortran: z_solve.o: No such file or directory
-gfortran: add.o: No such file or directory
-gfortran: error.o: No such file or directory
-gfortran: verify.o: No such file or directory
-gfortran: mpi_setup.o: No such file or directory
-gfortran: ../common/print_results.o: No such file or directory
-gfortran: ../common/timers.o: No such file or directory
-make[2]: *** [exec] Error 1
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
-make[1]: *** [../bin/bt-mz.C.4] Error 2
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
-make: *** [bt-mz] Error 2
+mpif77 -O3  -openmp  -o ../bin/bt-mz.C.4 bt.o  initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o  rhs.o zone_setup.o x_solve.o y_solve.o  exch_qbc.o solve_subs.o z_solve.o add.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
    ===========================================
    =      NAS PARALLEL BENCHMARKS 3.3        =
    =      MPI+OpenMP Multi-Zone Versions     =
@@ -207,12 +129,12 @@ make: *** [bt-mz] Error 2
    ===========================================
 
 cd BT-MZ; make CLASS=C NPROCS=6 VERSION=
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 make[2]: Nothing to be done for `all'.
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 ../sys/setparams bt-mz 6 C
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
 mpif77 -c  -O3 -openmp -fPIC -DPIC  bt.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  initialize.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  exact_solution.f
@@ -230,33 +152,9 @@ mpif77 -c  -O3 -openmp -fPIC -DPIC  add.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  error.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  verify.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  mpi_setup.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  print_results.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  timers.f
-mpif77 -O3  -openmp  -o ../bin/bt-mz.C.6 bt.o  initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o  rhs.o zone_setup.o x_solve.o y_solve.o  exch_qbc.o solve_subs.o z_solve.o add.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
-gfortran: bt.o: No such file or directory
-gfortran: initialize.o: No such file or directory
-gfortran: exact_solution.o: No such file or directory
-gfortran: exact_rhs.o: No such file or directory
-gfortran: set_constants.o: No such file or directory
-gfortran: adi.o: No such file or directory
-gfortran: rhs.o: No such file or directory
-gfortran: zone_setup.o: No such file or directory
-gfortran: x_solve.o: No such file or directory
-gfortran: y_solve.o: No such file or directory
-gfortran: exch_qbc.o: No such file or directory
-gfortran: solve_subs.o: No such file or directory
-gfortran: z_solve.o: No such file or directory
-gfortran: add.o: No such file or directory
-gfortran: error.o: No such file or directory
-gfortran: verify.o: No such file or directory
-gfortran: mpi_setup.o: No such file or directory
-gfortran: ../common/print_results.o: No such file or directory
-gfortran: ../common/timers.o: No such file or directory
-make[2]: *** [exec] Error 1
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
-make[1]: *** [../bin/bt-mz.C.6] Error 2
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
-make: *** [bt-mz] Error 2
+mpif77 -O3  -openmp  -o ../bin/bt-mz.C.6 bt.o  initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o  rhs.o zone_setup.o x_solve.o y_solve.o  exch_qbc.o solve_subs.o z_solve.o add.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/BT-MZ'
    ===========================================
    =      NAS PARALLEL BENCHMARKS 3.3        =
    =      MPI+OpenMP Multi-Zone Versions     =
@@ -264,15 +162,13 @@ make: *** [bt-mz] Error 2
    ===========================================
 
 cd SP-MZ; make CLASS=C NPROCS=2
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
-make.def modified. Rebuilding npbparams.h just in case
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 make[2]: Nothing to be done for `all'.
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make.def modified. Rebuilding npbparams.h just in case
 ../sys/setparams sp-mz 2 C
 rm -f npbparams.h
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  print_results.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  timers.f
 ../sys/setparams sp-mz 2 C
 mpif77 -c  -O3 -openmp -fPIC -DPIC  sp.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  initialize.f
@@ -294,32 +190,8 @@ mpif77 -c  -O3 -openmp -fPIC -DPIC  txinvr.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  error.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  verify.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  mpi_setup.f
-mpif77 -O3  -openmp  -o ../bin/sp-mz.C.2 sp.o initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o rhs.o zone_setup.o x_solve.o ninvr.o y_solve.o pinvr.o exch_qbc.o z_solve.o tzetar.o add.o txinvr.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
-gfortran: sp.o: No such file or directory
-gfortran: initialize.o: No such file or directory
-gfortran: exact_solution.o: No such file or directory
-gfortran: exact_rhs.o: No such file or directory
-gfortran: set_constants.o: No such file or directory
-gfortran: adi.o: No such file or directory
-gfortran: rhs.o: No such file or directory
-gfortran: zone_setup.o: No such file or directory
-gfortran: x_solve.o: No such file or directory
-gfortran: ninvr.o: No such file or directory
-gfortran: y_solve.o: No such file or directory
-gfortran: pinvr.o: No such file or directory
-gfortran: exch_qbc.o: No such file or directory
-gfortran: z_solve.o: No such file or directory
-gfortran: tzetar.o: No such file or directory
-gfortran: add.o: No such file or directory
-gfortran: txinvr.o: No such file or directory
-gfortran: error.o: No such file or directory
-gfortran: verify.o: No such file or directory
-gfortran: mpi_setup.o: No such file or directory
-gfortran: ../common/print_results.o: No such file or directory
-gfortran: ../common/timers.o: No such file or directory
-make[1]: *** [../bin/sp-mz.C.2] Error 1
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
-make: *** [sp-mz] Error 2
+mpif77 -O3  -openmp  -o ../bin/sp-mz.C.2 sp.o initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o rhs.o zone_setup.o x_solve.o ninvr.o y_solve.o pinvr.o exch_qbc.o z_solve.o tzetar.o add.o txinvr.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
    ===========================================
    =      NAS PARALLEL BENCHMARKS 3.3        =
    =      MPI+OpenMP Multi-Zone Versions     =
@@ -327,59 +199,13 @@ make: *** [sp-mz] Error 2
    ===========================================
 
 cd SP-MZ; make CLASS=C NPROCS=4
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
-mpif77 -c  -O3 -openmp -fPIC -DPIC  sp.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  initialize.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  exact_solution.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  exact_rhs.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  set_constants.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  adi.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  rhs.f
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 make[2]: Nothing to be done for `all'.
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 ../sys/setparams sp-mz 4 C
-mpif77 -c  -O3 -openmp -fPIC -DPIC  zone_setup.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  x_solve.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  ninvr.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  y_solve.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  pinvr.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  exch_qbc.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  z_solve.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  tzetar.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  add.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  txinvr.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  error.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  verify.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  mpi_setup.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  print_results.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  timers.f
-mpif77 -O3  -openmp  -o ../bin/sp-mz.C.4 sp.o initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o rhs.o zone_setup.o x_solve.o ninvr.o y_solve.o pinvr.o exch_qbc.o z_solve.o tzetar.o add.o txinvr.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
-gfortran: sp.o: No such file or directory
-gfortran: initialize.o: No such file or directory
-gfortran: exact_solution.o: No such file or directory
-gfortran: exact_rhs.o: No such file or directory
-gfortran: set_constants.o: No such file or directory
-gfortran: adi.o: No such file or directory
-gfortran: rhs.o: No such file or directory
-gfortran: zone_setup.o: No such file or directory
-gfortran: x_solve.o: No such file or directory
-gfortran: ninvr.o: No such file or directory
-gfortran: y_solve.o: No such file or directory
-gfortran: pinvr.o: No such file or directory
-gfortran: exch_qbc.o: No such file or directory
-gfortran: z_solve.o: No such file or directory
-gfortran: tzetar.o: No such file or directory
-gfortran: add.o: No such file or directory
-gfortran: txinvr.o: No such file or directory
-gfortran: error.o: No such file or directory
-gfortran: verify.o: No such file or directory
-gfortran: mpi_setup.o: No such file or directory
-gfortran: ../common/print_results.o: No such file or directory
-gfortran: ../common/timers.o: No such file or directory
-make[1]: *** [../bin/sp-mz.C.4] Error 1
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
-make: *** [sp-mz] Error 2
+mpif77 -O3  -openmp  -o ../bin/sp-mz.C.4 sp.o initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o rhs.o zone_setup.o x_solve.o ninvr.o y_solve.o pinvr.o exch_qbc.o z_solve.o tzetar.o add.o txinvr.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
    ===========================================
    =      NAS PARALLEL BENCHMARKS 3.3        =
    =      MPI+OpenMP Multi-Zone Versions     =
@@ -387,7 +213,7 @@ make: *** [sp-mz] Error 2
    ===========================================
 
 cd SP-MZ; make CLASS=C NPROCS=6
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
 mpif77 -c  -O3 -openmp -fPIC -DPIC  sp.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  initialize.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  exact_solution.f
@@ -395,9 +221,9 @@ mpif77 -c  -O3 -openmp -fPIC -DPIC  exact_rhs.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  set_constants.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  adi.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  rhs.f
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 make[2]: Nothing to be done for `all'.
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 ../sys/setparams sp-mz 6 C
 mpif77 -c  -O3 -openmp -fPIC -DPIC  zone_setup.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  x_solve.f
@@ -412,34 +238,8 @@ mpif77 -c  -O3 -openmp -fPIC -DPIC  txinvr.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  error.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  verify.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  mpi_setup.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  print_results.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  timers.f
-mpif77 -O3  -openmp  -o ../bin/sp-mz.C.6 sp.o initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o rhs.o zone_setup.o x_solve.o ninvr.o y_solve.o pinvr.o exch_qbc.o z_solve.o tzetar.o add.o txinvr.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
-gfortran: sp.o: No such file or directory
-gfortran: initialize.o: No such file or directory
-gfortran: exact_solution.o: No such file or directory
-gfortran: exact_rhs.o: No such file or directory
-gfortran: set_constants.o: No such file or directory
-gfortran: adi.o: No such file or directory
-gfortran: rhs.o: No such file or directory
-gfortran: zone_setup.o: No such file or directory
-gfortran: x_solve.o: No such file or directory
-gfortran: ninvr.o: No such file or directory
-gfortran: y_solve.o: No such file or directory
-gfortran: pinvr.o: No such file or directory
-gfortran: exch_qbc.o: No such file or directory
-gfortran: z_solve.o: No such file or directory
-gfortran: tzetar.o: No such file or directory
-gfortran: add.o: No such file or directory
-gfortran: txinvr.o: No such file or directory
-gfortran: error.o: No such file or directory
-gfortran: verify.o: No such file or directory
-gfortran: mpi_setup.o: No such file or directory
-gfortran: ../common/print_results.o: No such file or directory
-gfortran: ../common/timers.o: No such file or directory
-make[1]: *** [../bin/sp-mz.C.6] Error 1
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
-make: *** [sp-mz] Error 2
+mpif77 -O3  -openmp  -o ../bin/sp-mz.C.6 sp.o initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o rhs.o zone_setup.o x_solve.o ninvr.o y_solve.o pinvr.o exch_qbc.o z_solve.o tzetar.o add.o txinvr.o error.o verify.o mpi_setup.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/SP-MZ'
    ===========================================
    =      NAS PARALLEL BENCHMARKS 3.3        =
    =      MPI+OpenMP Multi-Zone Versions     =
@@ -447,12 +247,12 @@ make: *** [sp-mz] Error 2
    ===========================================
 
 cd LU-MZ; make CLASS=C NPROCS=2 VERSION=
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 make[2]: Nothing to be done for `all'.
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 ../sys/setparams lu-mz 2 C
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
 mpif77 -c  -O3 -openmp -fPIC -DPIC  lu.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  read_input.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  mpi_setup.f
@@ -474,37 +274,9 @@ mpif77 -c  -O3 -openmp -fPIC -DPIC  syncs.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  error.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  pintgr.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  verify.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  print_results.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  timers.f
-mpif77 -O3  -openmp  -o ../bin/lu-mz.C.2 lu.o read_input.o mpi_setup.o setcoeff.o setbv.o exact.o setiv.o erhs.o ssor.o zone_setup.o exch_qbc.o rhs.o l2norm.o jacld.o blts.o jacu.o buts.o syncs.o error.o pintgr.o verify.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
-gfortran: lu.o: No such file or directory
-gfortran: read_input.o: No such file or directory
-gfortran: mpi_setup.o: No such file or directory
-gfortran: setcoeff.o: No such file or directory
-gfortran: setbv.o: No such file or directory
-gfortran: exact.o: No such file or directory
-gfortran: setiv.o: No such file or directory
-gfortran: erhs.o: No such file or directory
-gfortran: ssor.o: No such file or directory
-gfortran: zone_setup.o: No such file or directory
-gfortran: exch_qbc.o: No such file or directory
-gfortran: rhs.o: No such file or directory
-gfortran: l2norm.o: No such file or directory
-gfortran: jacld.o: No such file or directory
-gfortran: blts.o: No such file or directory
-gfortran: jacu.o: No such file or directory
-gfortran: buts.o: No such file or directory
-gfortran: syncs.o: No such file or directory
-gfortran: error.o: No such file or directory
-gfortran: pintgr.o: No such file or directory
-gfortran: verify.o: No such file or directory
-gfortran: ../common/print_results.o: No such file or directory
-gfortran: ../common/timers.o: No such file or directory
-make[2]: *** [exec] Error 1
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
-make[1]: *** [../bin/lu-mz.C.2] Error 2
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
-make: *** [lu-mz] Error 2
+mpif77 -O3  -openmp  -o ../bin/lu-mz.C.2 lu.o read_input.o mpi_setup.o setcoeff.o setbv.o exact.o setiv.o erhs.o ssor.o zone_setup.o exch_qbc.o rhs.o l2norm.o jacld.o blts.o jacu.o buts.o syncs.o error.o pintgr.o verify.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
    ===========================================
    =      NAS PARALLEL BENCHMARKS 3.3        =
    =      MPI+OpenMP Multi-Zone Versions     =
@@ -512,12 +284,12 @@ make: *** [lu-mz] Error 2
    ===========================================
 
 cd LU-MZ; make CLASS=C NPROCS=4 VERSION=
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 make[2]: Nothing to be done for `all'.
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 ../sys/setparams lu-mz 4 C
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
 mpif77 -c  -O3 -openmp -fPIC -DPIC  lu.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  read_input.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  mpi_setup.f
@@ -530,46 +302,13 @@ mpif77 -c  -O3 -openmp -fPIC -DPIC  ssor.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  zone_setup.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  exch_qbc.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  rhs.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  l2norm.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  jacld.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  blts.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  jacu.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  buts.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  syncs.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  error.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  pintgr.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  verify.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  print_results.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  timers.f
-mpif77 -O3  -openmp  -o ../bin/lu-mz.C.4 lu.o read_input.o mpi_setup.o setcoeff.o setbv.o exact.o setiv.o erhs.o ssor.o zone_setup.o exch_qbc.o rhs.o l2norm.o jacld.o blts.o jacu.o buts.o syncs.o error.o pintgr.o verify.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
-gfortran: lu.o: No such file or directory
-gfortran: read_input.o: No such file or directory
-gfortran: mpi_setup.o: No such file or directory
-gfortran: setcoeff.o: No such file or directory
-gfortran: setbv.o: No such file or directory
-gfortran: exact.o: No such file or directory
-gfortran: setiv.o: No such file or directory
-gfortran: erhs.o: No such file or directory
-gfortran: ssor.o: No such file or directory
-gfortran: zone_setup.o: No such file or directory
-gfortran: exch_qbc.o: No such file or directory
-gfortran: rhs.o: No such file or directory
-gfortran: l2norm.o: No such file or directory
-gfortran: jacld.o: No such file or directory
-gfortran: blts.o: No such file or directory
-gfortran: jacu.o: No such file or directory
-gfortran: buts.o: No such file or directory
-gfortran: syncs.o: No such file or directory
-gfortran: error.o: No such file or directory
-gfortran: pintgr.o: No such file or directory
-gfortran: verify.o: No such file or directory
-gfortran: ../common/print_results.o: No such file or directory
-gfortran: ../common/timers.o: No such file or directory
-make[2]: *** [exec] Error 1
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
-make[1]: *** [../bin/lu-mz.C.4] Error 2
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
-make: *** [lu-mz] Error 2
+mpif77 -O3  -openmp  -o ../bin/lu-mz.C.4 lu.o read_input.o mpi_setup.o setcoeff.o setbv.o exact.o setiv.o erhs.o ssor.o zone_setup.o exch_qbc.o rhs.o l2norm.o jacld.o blts.o jacu.o buts.o syncs.o error.o pintgr.o verify.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
    ===========================================
    =      NAS PARALLEL BENCHMARKS 3.3        =
    =      MPI+OpenMP Multi-Zone Versions     =
@@ -577,12 +316,12 @@ make: *** [lu-mz] Error 2
    ===========================================
 
 cd LU-MZ; make CLASS=C NPROCS=6 VERSION=
-make[1]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[1]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 make[2]: Nothing to be done for `all'.
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/sys'
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/sys'
 ../sys/setparams lu-mz 6 C
-make[2]: Entering directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
+make[2]: Entering directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
 mpif77 -c  -O3 -openmp -fPIC -DPIC  lu.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  read_input.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  mpi_setup.f
@@ -595,43 +334,10 @@ mpif77 -c  -O3 -openmp -fPIC -DPIC  ssor.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  zone_setup.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  exch_qbc.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  rhs.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  l2norm.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  jacld.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  blts.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  jacu.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  buts.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  syncs.f
-mpif77 -c  -O3 -openmp -fPIC -DPIC  error.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  pintgr.f
 mpif77 -c  -O3 -openmp -fPIC -DPIC  verify.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  print_results.f
-cd ../common; mpif77 -c  -O3 -openmp -fPIC -DPIC  timers.f
-mpif77 -O3  -openmp  -o ../bin/lu-mz.C.6 lu.o read_input.o mpi_setup.o setcoeff.o setbv.o exact.o setiv.o erhs.o ssor.o zone_setup.o exch_qbc.o rhs.o l2norm.o jacld.o blts.o jacu.o buts.o syncs.o error.o pintgr.o verify.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/d/scheduler/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
-gfortran: lu.o: No such file or directory
-gfortran: read_input.o: No such file or directory
-gfortran: mpi_setup.o: No such file or directory
-gfortran: setcoeff.o: No such file or directory
-gfortran: setbv.o: No such file or directory
-gfortran: exact.o: No such file or directory
-gfortran: setiv.o: No such file or directory
-gfortran: erhs.o: No such file or directory
-gfortran: ssor.o: No such file or directory
-gfortran: zone_setup.o: No such file or directory
-gfortran: exch_qbc.o: No such file or directory
-gfortran: rhs.o: No such file or directory
-gfortran: l2norm.o: No such file or directory
-gfortran: jacld.o: No such file or directory
-gfortran: blts.o: No such file or directory
-gfortran: jacu.o: No such file or directory
-gfortran: buts.o: No such file or directory
-gfortran: syncs.o: No such file or directory
-gfortran: error.o: No such file or directory
-gfortran: pintgr.o: No such file or directory
-gfortran: verify.o: No such file or directory
-gfortran: ../common/print_results.o: No such file or directory
-gfortran: ../common/timers.o: No such file or directory
-make[2]: *** [exec] Error 1
-make[2]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
-make[1]: *** [../bin/lu-mz.C.6] Error 2
-make[1]: Leaving directory `/p/lscratchd/rountree/scheduler/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
-make: *** [lu-mz] Error 2
+mpif77 -O3  -openmp  -o ../bin/lu-mz.C.6 lu.o read_input.o mpi_setup.o setcoeff.o setbv.o exact.o setiv.o erhs.o ssor.o zone_setup.o exch_qbc.o rhs.o l2norm.o jacld.o blts.o jacu.o buts.o syncs.o error.o pintgr.o verify.o ../common/print_results.o ../common/timers.o -Xlinker -rpath -Xlinker /g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -L/g/g24/rountree/A/rapl-bmarks-new/bmarks/librapl-master/libmsr/lib -lrapl
+make[2]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
+make[1]: Leaving directory `/p/lscratchrza/rountree/rapl-bmarks-new/bmarks/NAS-MZ/LU-MZ'
