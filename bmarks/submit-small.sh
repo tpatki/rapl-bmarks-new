@@ -1,18 +1,18 @@
 #!/bin/bash
 
-cd NAS-MZ/BT-MZ/power
-msub rapl-runs-small.msub
+#cd NAS-MZ/BT-MZ/power
+#msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub turbo-old-lib.msub
 
-cd ../../SP-MZ/power
-msub rapl-runs-small.msub
+#cd ../../SP-MZ/power
+#msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 
-cd ../../LU-MZ/power
-msub rapl-runs-small.msub
+#cd ../../LU-MZ/power
+#msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 #msub rapl-runs-small.msub
 
