@@ -5,7 +5,7 @@
 #MSUB -q pbatch
 #MSUB -m abe
 #MSUB -M rountree@llnl.gov,tpatki@email.arizona.edu
-#MSUB -l walltime=10:00:00
+#MSUB -l walltime=18:00:00
 
 set -x
 
@@ -76,7 +76,7 @@ export FUNC_INTERCEPT=0
 export READ_WRITE=1
 export READ_ONLY=0
 
-for pkg in 0x38198 0x038208 0x038280 0x0382f8
+for pkg in 0x038280 0x0382f8
 do
 i=16
 j=2
