@@ -20,7 +20,7 @@ make clean && make -j8 rapl-icc
 #cd lulesh
 #make clean && make
 
-cd sphot
+cd ../../../sphot
 make clean && make
 
 #cd ../NAS-MZ
